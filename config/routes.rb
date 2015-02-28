@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
 
+  root 'main#index'
+
   get 'gallery' => 'gallery#index'
 
   get 'admin' => 'admin#index'
 
   scope 'admin' do
-    resources :photos, :albums, :sections, :articles
-  end
+    resources :sections, :articles
 
-  root 'main#index'
+    resources :albums do
+      resources :photos
+    end
+  end
 
 end
