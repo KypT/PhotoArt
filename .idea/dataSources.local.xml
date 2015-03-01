@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQLite -" uuid="109e2f66-da3b-4f57-a253-aac03b4ac1ef">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+    <data-source name="Rails PhotoArt: development" uuid="48be0056-0684-4b17-8ed4-af9f4e2b233a" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<div class = 'container'>
+  <h1>Список альбомов</h1>
+
+  <% if flash[:notice] %>
+      <div class="alert alert-success" role="alert"><%= flash[:notice] %></div>
+  <% end %>
+
+  <table class = "table table-hover">
+    <thead>
+    <tr>
+      <th>Название</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @albums.each do |album| %>
+        <tr>
+          <td><%= album.name%></td>
+          <td>
+            <%= link_to 'Редактировать', edit_album_path(album), {class: 'btn btn-primary'} %>
+            <%= link_to 'Удалить', album, method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
+          </td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+  <br>
+
+  <%= link_to 'Добавить альбом', new_album_path, {class: 'btn btn-success'} %>
+  <%= link_to 'Вернуться', admin_path, {class: 'btn btn-success'} %>
+
+</div>
