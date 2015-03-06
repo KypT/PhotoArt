@@ -1,8 +1,7 @@
 <div class = 'container'>
   <div class="jumbotron">
     <h2>Добавить альбом</h2>
-    <%= render 'form' %>
+    <%= render partial: 'form', locals: {data_remote: false, data_btn: 'Сохранить'} %>
   </div>
-  <%= link_to 'Вернуться', albums_path, class: 'btn btn-primary' %>
 </div>
 

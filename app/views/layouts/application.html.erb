@@ -2,12 +2,16 @@
 <html>
 <head>
   <title>PhotoArt</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'bootstrap-theme.min', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'bootstrap.min', media: 'all', 'data-turbolinks-track' => true %>
 
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'bootstrap.min', 'data-turbolinks-track' => true %>
+
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= stylesheet_link_tag 'bootstrap-theme.min', media: 'all' %>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag    'fileinput', media: 'all' %>
+
+  <%= javascript_include_tag 'application'%>
+  <%= javascript_include_tag 'bootstrap.min' %>
+  <%= javascript_include_tag 'fileinput' %>
   <%= csrf_meta_tags %>
 </head>
 <body>

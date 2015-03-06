@@ -2,12 +2,21 @@
   <div class = 'row'>
     <div class = 'col-md-8'>
       <div class="jumbotron">
-        <h2> Альбомы: </h2>
+        <h2>
+          Альбомы:
+          <a class="btn btn-success" href="<%= new_album_path %>" role="button">Добавить альбом</a>
+        </h2>
         <div class = 'row'>
         <% @albums.each do | album | %>
             <div class = 'col-md-4'>
               <a href="<%= edit_album_path album %>">
-                <img src="" alt="" class="img-thumbnail" style = 'height: 200px; width: 200px;'>
+                <div class = 'thumbnail'>
+                <% image_url = album.photos.first ? album.photos.first.file.url(:medium) : image_path("missing-image.png")  %>
+                <%= image_tag image_url %>
+                  <div class = 'caption'>
+                    <h4><%= album.name %></h4>
+                  </div>
+                </div>
               </a>
             </div>
         <% end %>

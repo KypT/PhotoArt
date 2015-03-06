@@ -1,7 +1,118 @@
-<div class = 'container'>
-  <div class="jumbotron">
-    <h2>Редактирование альбома</h2>
-    <%= render 'form' %>
+<div class = 'container-fluid'>
+    <div class = 'row'>
+      <div class = 'col-md-12'>
+        <%= render partial: 'form', locals: {data_remote: true, data_btn: 'Изменить название'} %>
+        <div class="form-group">
+          <input id = "photo" type="file" name = 'file' multiple="true">
+        </div>
+      </div>
+    </div>
+
+  <input id = 'album-id' type="hidden" value="<%= @album.id %>">
+
+  <div class = "row">
+    <% @album.photos.each do |pic| %>
+        <div class = "col-sm-2">
+          <div class="thumbnail photo" id = 'photo-<%= pic.id %>'>
+            <input type="hidden" value = '<%= image_tag pic.file.url %>'>
+            <img src="<%= pic.file.url(:small) %>" class = 'photo'>
+            <div class="caption">
+              <h4><%= pic.name %></h4>
+              <p>
+                <a class="btn btn-primary btn-sm" data-id = '<%= pic.id %>' role="button" data-toggle="modal" data-target="#myModal">Редактировать</a>
+                <%= link_to 'Удалить', '', class: 'btn btn-danger btn-sm remove', data: { confirm: 'Точно?', id: pic.id} %>
+              </p>
+            </div>
+          </div>
+        </div>
+    <% end %>
   </div>
-  <%= link_to 'Вернуться', albums_path, class: 'btn btn-primary' %>
+
+  <div class="modal fade large" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Фотография</h4>
+        </div>
+        <div class="modal-body thumbnail">
+        </div>
+        <div class="modal-footer">
+          <div class = 'row'>
+            <div class = 'col-xs-2'>
+              <h4>Название:</h4>
+            </div>
+            <div class = 'col-xs-6'>
+              <input class="form-control" id = 'new-name' type="text" value="">
+            </div>
+            <div class = 'col-xs-4'>
+              <button class = 'btn btn-success' id = 'change-name' data-dismiss="modal">Сохранить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script>
+  var photos = [];
+
+  <% @album.photos.each do | photo | %>
+      photos['<%= photo.id %>'] = [];
+      photos['<%= photo.id %>']['name'] = '<%= photo.name %>';
+      photos['<%= photo.id %>']['medium'] = '<%= photo.file.url(:medium)%>';
+  <% end %>
+
+    $(function()
+    {
+        $("#photo").fileinput({
+            'browseLabel': 'Обзор',
+            'cancelLabel': 'Отменить',
+            'uploadLabel': 'Загрузить',
+            'removeLabel': 'Удалить',
+            'dropZoneTitle': 'Чтобы добавить фотографии в альбом, перетащите их сюда',
+            'allowedFileTypes': ['image'],
+            'uploadUrl': '<%= album_photos_path @album %>'
+        });
+
+        $('#myModal').on('show.bs.modal', function (event)
+        {
+            var id = event.relatedTarget.getAttribute('data-id');
+            var photo = $('#photo-' + id).clone();
+            var img = photo.find("input[type=hidden]").val();
+
+            $('#new-name').val(photos[id]['name']);
+            $('#change-name').attr('data-id', id);
+
+            $(this).find('.modal-body').html(img);
+        });
+
+        $('#change-name').click(function()
+        {
+            var newName = $('#new-name').val();
+            var id = this.getAttribute('data-id');
+            $('#photo-' + id).find('h4').html(newName);
+
+            $.ajax({
+                url: '/admin/albums/' + $('#album-id').val() + '/photos/' + $(this).attr('data-id') ,
+                type: 'PUT',
+                data: {'name': newName}
+            });
+        });
+
+        $('.remove').click(function()
+        {
+            var id = this.getAttribute('data-id');
+
+            $.ajax({
+                url: '/admin/albums/' + $('#album-id').val() + '/photos/' + $(this).attr('data-id') ,
+                type: 'DELETE'
+            }).done(function()
+                    {
+                        $('#photo-' + id).fadeOut();
+                    }
+            );
+        });
+    });
+</script>

@@ -14,26 +14,19 @@ class PhotosController < ApplicationController
   end
 
   def create
-    @photo = Photo.new(article_params)
+    Photo.create(photo_params)
 
-    if @photo.save
-      redirect_to photos_path, notice: 'Новость добавлена.'
-    else
-      render :new
-    end
+    render json: {ok: :ok}
   end
 
   def destroy
     @photo.destroy
-    redirect_to photos_path, notice: 'Новость удалена.'
+    render json: {ok: :ok}
   end
 
   def update
-    if @photo.update(article_params)
-      redirect_to photos_path, notice: 'Новость успешно обновлена.'
-    else
-      render :edit
-    end
+    @photo.update(photo_params)
+    render json: {status: :ok}
   end
 
   private
@@ -51,6 +44,6 @@ class PhotosController < ApplicationController
     end
 
     def photo_params
-      params.require(:photo).permit(:album_id, :name)
+      params.permit(:album_id, :name, :file)
     end
 end

@@ -16,7 +16,7 @@ class AlbumsController < ApplicationController
     @album = Album.new(album_params)
 
       if @album.save
-        redirect_to albums_path, notice: 'Альбом успешно создан.'
+        render :edit
       else
         render :new, alert: 'Название альбома не может отсутствовать'
       end
