@@ -1,7 +1,7 @@
 <div class = 'container-fluid'>
     <div class = 'row'>
       <div class = 'col-md-12'>
-        <%= render partial: 'form', locals: {data_remote: true, data_btn: 'Изменить название'} %>
+        <%= render partial: 'form', locals: {render_for: 'edit'} %>
         <div class="form-group">
           <input id = "photo" type="file" name = 'file' multiple="true">
         </div>

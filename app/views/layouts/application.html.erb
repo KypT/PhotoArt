@@ -3,11 +3,10 @@
 <head>
   <title>PhotoArt</title>
 
-
-  <%= stylesheet_link_tag 'application', media: 'all' %>
-  <%= stylesheet_link_tag 'bootstrap-theme.min', media: 'all' %>
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <%= stylesheet_link_tag    'fileinput', media: 'all' %>
+  <%= stylesheet_link_tag 'bootstrap-theme.min', media: 'all' %>
+  <%= stylesheet_link_tag 'fileinput', media: 'all' %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
 
   <%= javascript_include_tag 'application'%>
   <%= javascript_include_tag 'bootstrap.min' %>
@@ -16,8 +15,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -39,7 +37,6 @@
         <li><a href="/admin">Войти</a></li>
       </ul>
     </div>
-  </div>
 </nav>
 
 <%= yield %>
