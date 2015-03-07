@@ -3,7 +3,7 @@
     <% first = true %>
     <% @albums.each do | album | %>
         <% album.photos.each do | photo | %>
-            <div class="item photo <%= 'active' if first %>" id = 'back-1' style = 'background-image: url(<%= photo.file.url %>)'>
+            <div class="item background <%= 'active' if first %>" id = 'back-1' style = 'background-image: url(<%= photo.file.url %>)'>
               <% first = false %>
             </div>
         <% end %>
