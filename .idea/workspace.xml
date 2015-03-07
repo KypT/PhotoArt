@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/gallery.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gallery/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoArt.iws" />
@@ -498,7 +496,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425728851790</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gallery quickfix">
+      <created>1425729332803</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1425729332803</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -547,7 +551,8 @@
     <MESSAGE value="show errors even in production" />
     <MESSAGE value="added gallery" />
     <MESSAGE value="gallery update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery update" />
+    <MESSAGE value="gallery quickfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery quickfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
