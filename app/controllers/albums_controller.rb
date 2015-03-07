@@ -24,7 +24,7 @@ class AlbumsController < ApplicationController
 
   def destroy
     @album.destroy
-    redirect_to albums_url, notice: 'Альбом удален.'
+    redirect_to admin_path, notice: 'Альбом удален.'
   end
 
   def update
