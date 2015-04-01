@@ -10,9 +10,9 @@
 
   <input id = 'album-id' type="hidden" value="<%= @album.id %>">
 
-  <div class = "row">
-    <% @album.photos.each do |pic| %>
-        <div class = "col-sm-2">
+  <div class = "row" id = 'drag-parent'>
+    <% @photos.each do |pic| %>
+        <div class = "col-sm-2" data-id = '<%= pic.id %>'>
           <div class="thumbnail photo" id = 'photo-<%= pic.id %>'>
             <input type="hidden" value = '<%= image_tag pic.file.url %>'>
             <img src="<%= pic.file.url(:small) %>" class = 'photo'>
@@ -26,6 +26,10 @@
           </div>
         </div>
     <% end %>
+  </div>
+
+  <div>
+    <a class="btn btn-primary save-order" role="button">Сохранить порядок следования фотографий</a>
   </div>
 
   <div class="modal fade large" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -58,11 +62,11 @@
 <script>
   var photos = [];
 
-  <% @album.photos.each do | photo | %>
+    <% @photos.each do | photo | %>
       photos['<%= photo.id %>'] = [];
       photos['<%= photo.id %>']['name'] = '<%= photo.name %>';
       photos['<%= photo.id %>']['medium'] = '<%= photo.file.url(:medium)%>';
-  <% end %>
+    <% end %>
 
     $(function()
     {

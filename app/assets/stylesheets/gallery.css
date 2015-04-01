@@ -14,9 +14,10 @@ nav
 {
     position: fixed;
 
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment:fixed;
+    background-repeat: no-repeat;
     -moz-background-size: cover;
 
     height: 100%;

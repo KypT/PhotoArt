@@ -1,8 +1,21 @@
+<% content_for :controls do %>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Выбрать альбом<span class="caret"></span></a>
+      <ul class="dropdown-menu" role="menu">
+        <% @albums.each do | album | %>
+            <li><a href = '?album=<%= album.id %>'><%= album.name %></a></li>
+        <% end %>
+        <%= yield :controls %>
+      </ul>
+    </li>
+    <li><%= params[:id] %></li>
+<% end %>
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <% first = true %>
-    <% @albums.each do | album | %>
-        <% album.photos.each do | photo | %>
+    <% if @album %>
+        <% @album.photos.each do | photo | %>
             <div class="item background <%= 'active' if first %>" id = 'back-1' style = 'background-image: url(<%= photo.file.url %>)'>
               <% first = false %>
             </div>

@@ -6,6 +6,8 @@ class AlbumsController < ApplicationController
   end
 
   def edit
+    @photos = @album.photos.order(:sort)
+    @photos = {} unless @photos
   end
 
   def new
@@ -14,6 +16,7 @@ class AlbumsController < ApplicationController
 
   def create
     @album = Album.new(album_params)
+    @photos = {}
 
       if @album.save
         render :edit

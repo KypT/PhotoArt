@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'main#index'
 
   get 'gallery' => 'gallery#index'
+  get 'gallery?album=:id' => 'gallery#index'
 
   get 'admin' => 'admin#index'
 

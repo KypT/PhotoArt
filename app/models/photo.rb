@@ -3,5 +3,11 @@ class Photo < ActiveRecord::Base
   validates_attachment_content_type :file, :content_type => /\Aimage\/.*\Z/
   do_not_validate_attachment_file_type :file
 
+  before_save :set_defaults
+
   belongs_to :album
+
+  def set_defaults
+    self.sort = 0 unless self.sort
+  end
 end
