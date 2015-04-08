@@ -31,7 +31,20 @@ class AlbumsController < ApplicationController
   end
 
   def update
-    if @album.update(album_params)
+
+    result = @album.update(album_params)
+
+    if request.xhr?
+      if result
+        render json: :ok
+      else
+        render json: :error
+      end
+      return
+    end
+
+
+    if result
       redirect_to albums_path, notice: 'Альбом успешно обновлен.'
     else
         render :edit
@@ -49,6 +62,6 @@ class AlbumsController < ApplicationController
     end
 
     def album_params
-      params.require(:album).permit(:name)
+      params.require(:album).permit(:name, :cover)
     end
 end
