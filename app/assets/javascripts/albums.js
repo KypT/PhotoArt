@@ -19,45 +19,47 @@ $(document).on('page:change', function()
     Sortable.create(document.getElementById("drag-parent"), { animation: 200 });
 
     $('.save-order').click(saveOrder);
-    
+
+    var photoId = 0;
+
     $('#myModal').on('show.bs.modal', function (event)
     {
-        var id = event.relatedTarget.getAttribute('data-id');
-        var photo = $('#photo-' + id).clone();
+        photoId = event.relatedTarget.getAttribute('data-id');
+        var photo = $('#photo-' + photoId).clone();
 
-        $('#new-name').val(photos[id]['name']);
+        $('#new-name').val(photos[photoId]['name']);
 
-        $(this).find('.modal-body').html(photos[id]['medium']);
+        $(this).find('.modal-body').html(photos[photoId]['medium']);
+    });
 
-        $('#make-cover').unbind('click').click(function()
-        {
-            $.ajax({
-                url: '/admin/albums/' + albumId,
-                type: 'PUT',
-                data: {'album[cover]': id }
-            }).done(function(data)
-            {
-                if (data = 'ok') {
-                    $('#make-cover').after('<div class="alert alert-success message" role="alert">Готово!</div>');
-                    setTimeout(function() { $('.message').fadeOut(); }, 2000);
-                }
-                else {
-                    $('#make-cover').after('<div class="alert alert-danger message" role="alert">Ошибка!</div>');
-                    setTimeout(function() { $('.message').fadeOut(); }, 2000);
-                }
-            });
+    $('#change-name').unbind('click').click(function()
+    {
+        var newName = $('#new-name').val();
+        $('#photo-' + photoId).find('h4').html(newName);
+
+        $.ajax({
+            url: '/admin/albums/' + albumId + '/photos/' + photoId ,
+            type: 'PUT',
+            data: {'name': newName}
         });
+    });
 
-        $('#change-name').click(function()
+    $('#make-cover').click(function()
+    {
+        $.ajax({
+            url: '/admin/albums/' + albumId,
+            type: 'PUT',
+            data: {'album[cover]': photoId }
+        }).done(function(data)
         {
-            var newName = $('#new-name').val();
-            $('#photo-' + id).find('h4').html(newName);
-
-            $.ajax({
-                url: '/admin/albums/' + albumId + '/photos/' + id ,
-                type: 'PUT',
-                data: {'name': newName}
-            });
+            if (data = 'ok') {
+                $('#make-cover').after('<div class="alert alert-success message" role="alert">Готово!</div>');
+                setTimeout(function() { $('.message').fadeOut(); }, 2000);
+            }
+            else {
+                $('#make-cover').after('<div class="alert alert-danger message" role="alert">Ошибка!</div>');
+                setTimeout(function() { $('.message').fadeOut(); }, 2000);
+            }
         });
     });
 
@@ -73,6 +75,8 @@ $(document).on('page:change', function()
 
     $('.remove').click(function()
     {
+        if (!confirm('Точно?')) return;
+
         var id = this.getAttribute('data-id');
 
         $.ajax({
@@ -80,7 +84,7 @@ $(document).on('page:change', function()
             type: 'DELETE'
         }).done(function()
             {
-                $('#photo-' + id).fadeOut();
+                $('.photo-container[data-id=' + photoId + ']').fadeOut();
             }
         );
     });
