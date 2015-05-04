@@ -36,6 +36,20 @@
     margin-bottom: 0;
 }
 
+.album-container {
+  padding: 0;
+}
+
 .album-form {
   padding: 0 15px;
+}
+
+.album-photo {
+  padding: 5px;
+  max-height: 200px;
+  overflow : hidden;
+}
+
+.album-photo > img {
+  width: 100%;
 }

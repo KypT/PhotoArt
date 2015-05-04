@@ -12,6 +12,13 @@ class AlbumsController < ApplicationController
 
   def new
     @album = Album.new
+    layout
+  end
+
+  def show
+    id = params[:id]
+    @photos = Album.find(id).photos
+    render :layout => false
   end
 
   def create

@@ -1,0 +1,7 @@
+<div class = 'album-container container'>
+    <% @photos.each do |photo| %>
+          <div class = 'album-photo col-sm-2'>
+            <img src="<%= photo.file.url :small %>" alt=""/>
+          </div>
+    <% end %>
+</div>

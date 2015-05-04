@@ -16,7 +16,8 @@ $(document).on('page:change', function()
         return $('#drag-parent').children().toArray().map(function(val) { return val.getAttribute('data-id') });
     }
 
-    Sortable.create(document.getElementById("drag-parent"), { animation: 200 });
+        if (document.getElementById("drag-parent"))
+            Sortable.create(document.getElementById("drag-parent"), { animation: 200 });
 
     $('.save-order').click(saveOrder);
 
@@ -63,15 +64,16 @@ $(document).on('page:change', function()
         });
     });
 
-    $("#photo").fileinput({
-        'browseLabel': 'Обзор',
-        'cancelLabel': 'Отменить',
-        'uploadLabel': 'Загрузить',
-        'removeLabel': 'Удалить',
-        'dropZoneTitle': 'Чтобы добавить фотографии в альбом, перетащите их сюда',
-        'allowedFileTypes': ['image'],
-        'uploadUrl': uploadUrl
-    });
+    if ($("#photo").length)
+            $("#photo").fileinput({
+            'browseLabel': 'Обзор',
+            'cancelLabel': 'Отменить',
+            'uploadLabel': 'Загрузить',
+            'removeLabel': 'Удалить',
+            'dropZoneTitle': 'Чтобы добавить фотографии в альбом, перетащите их сюда',
+            'allowedFileTypes': ['image'],
+            'uploadUrl': uploadUrl
+        });
 
     $('.remove').click(function()
     {
