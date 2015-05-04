@@ -1,36 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/section-learning.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/section-photo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/section-travel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gallery/_albumCard.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/_article.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/all.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/read.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/albums/show.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gallery/slideshow.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="bugfixes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\011\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\011\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\018\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\018\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\018\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\019\medium\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\019\original\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\019\small\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\020\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\020\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\020\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\021\medium\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\021\original\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\021\small\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\022\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\022\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\022\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\023\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\023\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\023\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\024\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\024\original\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\024\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\025\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\025\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\025\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\026\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\026\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\026\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\027\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\027\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\027\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\028\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\028\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\028\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\029\medium\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\029\original\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\029\small\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\030\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\030\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\030\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\031\medium\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\031\original\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\031\small\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\034\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\034\original\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\034\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\035\medium\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\035\original\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\035\small\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\036\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\036\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\036\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\037\medium\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\037\original\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\037\small\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\039\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\039\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\039\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\040\medium\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\040\original\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\040\small\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\042\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\042\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\042\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\043\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\043\original\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\043\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\044\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\044\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\044\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\046\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\046\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\046\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\047\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\047\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\047\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\048\medium\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\048\original\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\048\small\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\049\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\049\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\049\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\050\medium\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\050\original\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\050\small\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\051\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\051\original\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\051\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\052\medium\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\052\original\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\052\small\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\053\medium\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\053\original\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\053\small\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\054\medium\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\054\original\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\054\small\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\056\medium\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\056\original\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\056\small\Lighthouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\058\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\058\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\058\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\061\medium\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\061\original\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\061\small\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\067\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\067\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\067\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\071\medium\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\071\original\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\071\small\Hydrangeas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\072\medium\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\072\original\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\072\small\Chrysanthemum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\073\medium\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\073\original\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\073\small\Desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\074\medium\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\074\original\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\074\small\Koala.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\075\medium\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\075\original\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\075\small\Jellyfish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\076\medium\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\076\original\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\076\small\Penguins.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\077\medium\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\077\original\Tulips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="X:\Workspace\PhotoArt\public\system\photos\files\000\000\077\small\Tulips.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PhotoArt.iml" afterPath="$PROJECT_DIR$/.idea/PhotoArt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/albums.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/albums.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/albums_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/albums_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gallery_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gallery_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gallery/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoArt.iws" />
@@ -95,8 +202,28 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7529976" vertical-offset="0" max-vertical-offset="901">
-              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.86817324" vertical-offset="117" max-vertical-offset="901">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="901">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -108,8 +235,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1864407" vertical-offset="415" max-vertical-offset="3094">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2958">
+              <caret line="28" column="11" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -118,7 +245,7 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
               <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
@@ -133,7 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/_form.html.erb" />
@@ -154,7 +280,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20150401100916_add_sort_to_pictures.rb" />
         <option value="db-console:/318c45b2/48be0056-0684-4b17-8ed4-af9f4e2b233a/" />
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/db/migrate/20150402163205_add_parent_to_albums.rb" />
         <option value="$PROJECT_DIR$/app/models/photo.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin_controller.rb" />
@@ -171,7 +296,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/albums.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/all.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article.html.erb" />
@@ -184,6 +308,9 @@
         <option value="$PROJECT_DIR$/app/views/gallery/slideshow.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Procfile.txt" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -234,20 +361,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PhotoArt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoArt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoArt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,17 +663,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41553637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3107275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20694087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20308483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20822622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41553637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -569,10 +680,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -630,34 +743,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.css">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69186044" vertical-offset="204" max-vertical-offset="748">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/318c45b2/109e2f66-da3b-4f57-a253-aac03b4ac1ef/..photos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/318c45b2/48be0056-0684-4b17-8ed4-af9f4e2b233a/..photos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2958">
+          <caret line="28" column="11" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,13 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.06385696" vertical-offset="135" max-vertical-offset="918">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -742,18 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13877551" vertical-offset="0" max-vertical-offset="646">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/318c45b2/48be0056-0684-4b17-8ed4-af9f4e2b233a/..albums">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -834,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="153" max-vertical-offset="901">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11467116" vertical-offset="0" max-vertical-offset="593">
@@ -851,18 +942,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/318c45b2/48be0056-0684-4b17-8ed4-af9f4e2b233a/..articles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -920,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="446">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30958232" vertical-offset="61" max-vertical-offset="663">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,8 +1049,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1864407" vertical-offset="415" max-vertical-offset="3094">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2958">
+          <caret line="28" column="11" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -987,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1726457" vertical-offset="999" max-vertical-offset="1445">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,10 +1084,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="446">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="901">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7529976" vertical-offset="0" max-vertical-offset="901">
-          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.86817324" vertical-offset="117" max-vertical-offset="901">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding />
         </state>
       </provider>
