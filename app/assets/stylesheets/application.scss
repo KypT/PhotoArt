@@ -16,14 +16,14 @@
 
 @font-face {
     font-family: 'Source Code Pro';
-    src: url(/assets/code_light.otf);
+    src: font-url("code_light.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Rosa Marena';
-    src: url(/assets/rosa_marena.ttf);
+    src: font-url("rosa_marena.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
