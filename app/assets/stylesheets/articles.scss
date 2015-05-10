@@ -1,4 +1,11 @@
-.article .panel-heading {
-  background-color: #C0C0C0;
-  background-image: none;
+.article {
+  color: black;
+
+  .panel-heading {
+    background-color: #C0C0C0;
+    background-image: none;
+    .article-title {
+      color: black;
+    }
+  };
 }
