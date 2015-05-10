@@ -20,7 +20,7 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
 
     if @article.save
-      redirect_to articles_path, notice: 'Новость добавлена.'
+      redirect_to admin_path, notice: 'Новость добавлена.'
     else
       render :new
     end

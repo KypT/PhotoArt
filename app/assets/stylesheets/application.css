@@ -14,6 +14,29 @@
  *= require_self
  */
 
- body {
-     background-color: gray;
- }
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url(/assets/code_light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rosa Marena';
+    src: url(/assets/rosa_marena.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Source Code Pro", Monaco, monospace;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #ffffff;
+}

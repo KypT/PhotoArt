@@ -1,7 +1,7 @@
 <div class = 'container'>
-  <div class = 'row'>
+  <div class = 'row albums'>
     <% @albums.each do | album | %>
-      <div class = 'col-md-2'>
+      <div class = 'album col-md-2'>
         <%= link_to "/gallery/#{album.id}" do %>
             <%= render partial: 'albumCard', locals: {album: album} %>
         <% end %>
