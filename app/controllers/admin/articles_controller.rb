@@ -63,8 +63,8 @@ module Admin
     end
 
     def article_params
-      @photo = params.require(:articles)[:photo]
-      params.require(:articles).permit(:title, :content)
+      @photo = params.require(:article)[:photo]
+      params.require(:article).permit(:title, :content)
     end
   end
 end
