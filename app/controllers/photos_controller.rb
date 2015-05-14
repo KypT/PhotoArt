@@ -44,6 +44,6 @@ class PhotosController < ApplicationController
     end
 
     def photo_params
-      params.permit(:album_id, :name, :file, :id, :sort)
+      params.permit(:album_id, :article_id, :name, :file, :id, :sort)
     end
 end

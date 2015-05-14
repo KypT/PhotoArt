@@ -6,6 +6,7 @@ class Photo < ActiveRecord::Base
   before_create :save_to_end
 
   belongs_to :album
+  belongs_to :article
 
   def save_to_end
     self.sort = 99999

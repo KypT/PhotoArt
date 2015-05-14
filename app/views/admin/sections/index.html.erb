@@ -20,8 +20,8 @@
           <td><%= section.name%></td>
           <td><%= section.url%></td>
           <td>
-            <%= link_to 'Редактировать', edit_section_path(section), {class: 'btn btn-primary'} %>
-            <%= link_to 'Удалить', section, method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
+            <%= link_to 'Редактировать', edit_admin_section_path(section), {class: 'btn btn-primary'} %>
+            <%= link_to 'Удалить', admin_section_path(section), method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
           </td>
         </tr>
     <% end %>
@@ -30,6 +30,6 @@
 
   <br>
 
-  <%= link_to 'Добавить секцию', new_section_path, {class: 'btn btn-success'} %>
+  <%= link_to 'Добавить секцию', new_admin_section_path, {class: 'btn btn-success'} %>
   <%= link_to 'Вернуться', admin_path, {class: 'btn btn-success'} %>
 </div>

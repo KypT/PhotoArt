@@ -1,39 +1,50 @@
 <div class="main-content container-fluid">
     <div class = 'collage-container'></div>
     <div class = 'sections row'>
-      <div class="section col-md-4">
-        <%= link_to controller: 'photo', action: 'index' do %>
-            <h2>Фотосъемка</h2>
+      <div class="section col-md-3">
+        <%= link_to controller: 'main', action: 'photo' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-photo.jpg' %>)'></div>
+            <h2>Фотосъемка</h2>
+            <div class="section-description">
+              <p>
+                Классический портрет в студии и на пленере. Семейная фотография. Репортаж. Пейзаж
+              </p>
+            </div>
         <% end %>
-        <div class="section-description">
-          <p>
-            Классический портрет в студии и на пленере. Семейная фотография. Репортаж. Пейзаж
-          </p>
-        </div>
       </div>
-      <div class="section col-md-4">
-        <%= link_to controller: 'travel', action: 'index' do %>
-            <h2>Фотоэкспедиции</h2>
+      <div class="section col-md-3">
+        <%= link_to controller: 'main', action: 'travel' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-travel.jpg' %>)'></div>
+            <h2>Фотоэкспедиции</h2>
+            <div class="section-description">
+              <p>
+                На автомобиле по горам Кавказа, Русскому Северу, Беларуси и Балтии к открытиям и впечатлениям.
+              </p>
+              <p>  Обучающие фототуры </p>
+            </div>
         <% end %>
-        <div class="section-description">
-          <p>
-            На автомобиле по горам Кавказа, Русскому Северу, Беларуси и Балтии к открытиям и впечатлениям.
-          </p>
-          <p>  Обучающие фототуры </p>
-        </div>
       </div>
-      <div class="section col-md-4">
-        <%= link_to controller: 'learn', action: 'index' do %>
-            <h2>Фотошкола</h2>
+      <div class="section col-md-3">
+        <%= link_to controller: 'main', action: 'learn' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-learning.jpg' %>)'></div>
+            <h2>Фотошкола</h2>
+            <div class="section-description">
+              <p>
+                Фотографический практикум индивидуально или в малой группе. Очное или онлайн-обучение
+              </p>
+            </div>
         <% end %>
-        <div class="section-description">
-          <p>
-            Фотографический практикум индивидуально или в малой группе. Очное или онлайн-обучение
-          </p>
-        </div>
     </div>
+      <div class="section col-md-3">
+        <%= link_to controller: 'main', action: 'about' do %>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-artist.jpg' %>)'></div>
+            <h2>О художнике</h2>
+            <div class="section-description">
+              <p>
+
+              </p>
+            </div>
+        <% end %>
+      </div>
   </div>
 </div>

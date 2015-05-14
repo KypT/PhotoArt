@@ -2,9 +2,10 @@ Rails.application.routes.draw do
 
   root 'main#index'
 
-  get 'news/index'
-  get 'learn/index'
-  get 'travel/index'
+  get '/travel' => 'main#travel'
+  get '/about' => 'main#about'
+  get '/learn' => 'main#learn'
+  get '/photo' => 'main#photo'
   get 'photo/index'
 
   get 'gallery' => 'gallery#index'
@@ -16,13 +17,14 @@ Rails.application.routes.draw do
   get 'gallery/' => 'gallery#index'
   get 'gallery/:album' => 'gallery#slideshow'
 
-
   scope 'admin' do
-    resources :sections, :articles
-
     resources :albums do
       resources :photos
     end
+  end
+
+  namespace :admin do
+    resources :articles, :sections
   end
 
 end

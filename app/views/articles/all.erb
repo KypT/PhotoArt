@@ -1,5 +1,6 @@
 <div class="container">
     <% @articles.each do | article | %>
-    <%= render partial: 'article', locals: {article: article} %>
+        <% @photo = article.photos.first %>
+        <%= render partial: 'article', locals: {article: article} %>
     <% end %>
 </div>

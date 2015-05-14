@@ -1,4 +1,4 @@
-class SectionsController < ApplicationController
+class Admin::SectionsController < ApplicationController
   before_action :set_section, only: [:edit, :update, :destroy]
 
   def index
@@ -16,7 +16,7 @@ class SectionsController < ApplicationController
     @section = Section.new(section_params)
 
     if @section.save
-      redirect_to sections_path, notice: 'Секция успешно создана.'
+      redirect_to admin_sections_path, notice: 'Секция успешно создана.'
     else
       render :new
     end
@@ -24,12 +24,12 @@ class SectionsController < ApplicationController
 
   def destroy
     @section.destroy
-    redirect_to sections_path, notice: 'Секция удалена.'
+    redirect_to admin_sections_path, notice: 'Секция удалена.'
   end
 
   def update
     if @section.update(section_params)
-      redirect_to sections_path, notice: 'Секция успешно обновлена.'
+      redirect_to admin_sections_path, notice: 'Секция успешно обновлена.'
     else
       render :edit
     end
