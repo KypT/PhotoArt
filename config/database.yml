@@ -3,17 +3,15 @@ default: &default
   pool: 5
   encoding: unicode
   host: localhost
-  username: developer
-  password: devKey
+  username: photouser
+  password: photopass
+  database: photodb
 
 development:
   <<: *default
-  database: photoart_dev
 
 test:
   <<: *default
-  database: photoart_test
 
 production:
   <<: *default
-  database: photoart
