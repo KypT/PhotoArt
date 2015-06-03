@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  mount Ckeditor::Engine => '/ckeditor'
   root 'main#index'
 
   get '/travel' => 'main#travel'

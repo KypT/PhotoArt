@@ -5,8 +5,6 @@
     <% end %>
   </div>
   <div class = 'panel-body'>
-    <% image_url = @photo ? @photo.file.url(:medium) : image_path("missing-image.png") %>
-    <img src="<%= image_url %>" alt=""/>
-    <p class = "article-text"><%= article.content %></p>
+    <div class = "article-text"><%= article.content.html_safe %></div>
   </div>
 </div>

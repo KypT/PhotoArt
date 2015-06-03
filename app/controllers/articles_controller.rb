@@ -5,6 +5,5 @@ class ArticlesController < ApplicationController
 
   def read
     @article = Article.find(params[:id])
-    @photo = @article.photos.first
   end
 end

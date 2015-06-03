@@ -1,4 +1,4 @@
-$(document).on('page:change', function()
+$(function()
 {
     function saveOrder() {
         var order = getOrder();
