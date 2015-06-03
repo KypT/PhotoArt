@@ -1,5 +1,6 @@
 module Admin
-  class ArticlesController < ApplicationController
+  class ArticlesController < AdminController
+    before_action :authenticate_user!
     before_action :set_article, only: [:edit, :update, :destroy]
 
     def index

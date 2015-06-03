@@ -9,7 +9,7 @@
     </div>
 <% end %>
 
-<%= form_for @album, remote: render_for == 'edit', :html => {class: 'form-horizontal album-form'} do |f| %>
+<%= form_for [:admin, @album], remote: render_for == 'edit', :html => {class: 'form-horizontal album-form'} do |f| %>
 
     <div class="form-group">
         <div class = 'row'>
@@ -24,7 +24,7 @@
             <%= f.submit cmd , remote: true, class: 'btn btn-primary btn-large' %>
             <%= link_to 'Вернуться', admin_path, class: 'btn btn-primary' %>
             <% if render_for == 'edit' %>
-                <%= link_to 'Удалить', @album, method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
+                <%= link_to 'Удалить', [:admin, @album], method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
             <% end %>
           </div>
         </div>

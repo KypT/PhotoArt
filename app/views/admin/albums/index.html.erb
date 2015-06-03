@@ -17,7 +17,7 @@
         <tr>
           <td><%= album.name%></td>
           <td>
-            <%= link_to 'Редактировать', edit_album_path(album), {class: 'btn btn-primary'} %>
+            <%= link_to 'Редактировать', edit_admin_album_path(album), {class: 'btn btn-primary'} %>
             <%= link_to 'Удалить', album, method: :delete, class: 'btn btn-danger', data: { confirm: 'Точно?'} %>
           </td>
         </tr>
@@ -27,7 +27,7 @@
 
   <br>
 
-  <%= link_to 'Добавить альбом', new_album_path, {class: 'btn btn-success'} %>
+  <%= link_to 'Добавить альбом', new_admin_album_path, {class: 'btn btn-success'} %>
   <%= link_to 'Вернуться', admin_path, {class: 'btn btn-success'} %>
 
 </div>

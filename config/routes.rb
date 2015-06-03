@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
   root 'main#index'
 
@@ -18,14 +19,11 @@ Rails.application.routes.draw do
   get 'gallery/' => 'gallery#index'
   get 'gallery/:album' => 'gallery#slideshow'
 
-  scope 'admin' do
+  namespace :admin do
+    resources :articles, :sections
     resources :albums do
       resources :photos
     end
-  end
-
-  namespace :admin do
-    resources :articles, :sections
   end
 
 end

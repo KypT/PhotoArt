@@ -55,7 +55,7 @@
 
 <script>
   var photos = [];
-  var uploadUrl = '<%= album_photos_path @album %>';
+  var uploadUrl = '<%= admin_album_photos_path @album %>';
   var albumId = <%= @album.id %>;
 
     <% @photos.each do | photo | %>
@@ -63,9 +63,4 @@
       photos['<%= photo.id %>']['name'] = '<%= photo.name %>';
       photos['<%= photo.id %>']['medium'] = '<%= image_tag(photo.file.url(:medium))%>';
     <% end %>
-
-  $(document).on('page:change', function()
-  {
-  });
-
 </script>
