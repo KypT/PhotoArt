@@ -4,12 +4,12 @@
       <div class="jumbotron admin-panel">
         <h2>
           Альбомы:
-          <a class="btn btn-success" href="<%= new_album_path %>" role="button">Добавить альбом</a>
+          <a class="btn btn-success" href="<%= new_admin_album_path %>" role="button">Добавить альбом</a>
         </h2>
         <div class = 'row'>
         <% @albums.each do | album | %>
             <div class = 'col-md-4'>
-              <a href="<%= edit_album_path album %>">
+              <a href="<%= edit_admin_album_path album %>">
                 <div class = 'thumbnail'>
                 <% image = album.photos.find_by_id(album.cover) || album.photos.first  %>
                 <% image_url = image ? image.file.url(:medium) : image_path("missing-image.png")  %>
