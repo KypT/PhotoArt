@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails PhotoArt: test" uuid="0a95e822-05f2-4413-8339-3bc9d3535fa9">
-      <user-name>developer</user-name>
-      <user-password>dfcedfcfdfdcdfe1dfcfdfd3</user-password>
-      <schema-pattern>photoart_test.pg_catalog photoart_test.public</schema-pattern>
-      <default-schemas>photoart_test.pg_catalog photoart_test.public</default-schemas>
-    </data-source>
-    <data-source name="PostgreSQL - photoart_dev@localhost" uuid="59044f75-447a-48e7-ac75-cefb3327231d">
+    <data-source name="PostgreSQL - photodb@localhost" uuid="59044f75-447a-48e7-ac75-cefb3327231d">
       <secret-storage>master_key</secret-storage>
-      <user-name>developer</user-name>
+      <user-name>photouser</user-name>
       <schema-pattern>photoart_dev.pg_catalog photoart_dev.public</schema-pattern>
       <default-schemas>photoart_dev.pg_catalog photoart_dev.public</default-schemas>
     </data-source>
