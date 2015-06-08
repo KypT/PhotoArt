@@ -10,9 +10,5 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.scss, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-Rails.application.config.assets.precompile += %w( bootstrap-theme.min.css )
-Rails.application.config.assets.precompile += %w( bootstrap.min.js )
-Rails.application.config.assets.precompile += %w( fileinput.css )
-Rails.application.config.assets.precompile += %w( fileinput.js )
-Rails.application.config.assets.precompile += %w( Sortable.js )
-Rails.application.config.assets.precompile += %w( ckeditor/* )
+Rails.application.config.assets.precompile += ['*']
+Rails.application.config.assets.precompile += ['/admin/*']

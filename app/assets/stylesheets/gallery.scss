@@ -9,37 +9,6 @@ body
   margin-top: 20px;
 }
 
-nav
-{
-    z-index: 2;
-}
-
-.background
-{
-    position: fixed;
-
-    background-size: contain;
-    background-position: center center;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-
-    height: 100%;
-}
-
-.carousel-inner
-{
-    height: 100%;
-}
-
-.carousel
-{
-    position: fixed;
-    height: 100%;
-    width:100%;
-    top: 0;
-}
-
 .album-card {
   min-width: 250px;
 
@@ -50,4 +19,3 @@ nav
     }
   }
 }
-
