@@ -4,11 +4,6 @@
     border-radius: 0;
 }
 
-.navbar-brand {
-    font-family: 'Rosa Marena', sans-serif;
-    font-size: 32px;
-}
-
 .navbar-nav li {
     font-size: 20px;
 }
@@ -19,6 +14,8 @@
 
 .navbar-inverse .navbar-brand {
     color: #D7D7D7;
+    font-family: 'Rosa Marena', sans-serif;
+    font-size: 32px;
 }
 
 .navbar-inverse .navbar-brand,

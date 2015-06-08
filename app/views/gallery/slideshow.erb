@@ -11,24 +11,68 @@
     <li><%= params[:id] %></li>
 <% end %>
 
+<% content_for :assets do %>
+    <%= stylesheet_link_tag 'supersized' %>
+    <%= stylesheet_link_tag 'supersized.shutter' %>
+    <%= javascript_include_tag 'jquery.easing.min' %>
+    <%= javascript_include_tag 'supersized.3.2.7' %>
+    <%= javascript_include_tag 'supersized.shutter' %>
+<% end %>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <% first = true %>
-    <% if @album %>
-        <% @album.photos.order(:sort).each do | photo | %>
-            <div class="item background <%= 'active' if first %>" id = 'back-1' style = 'background-image: url(<%= photo.file.url %>)'>
-              <% first = false %>
-            </div>
+<script type="text/javascript" charset="utf-8">
+    var slides = [
+        <% if @album %>
+            <% @album.photos.order(:sort).each do | photo | %>
+            { image: '<%= photo.file.url %>', title: '<%= photo.name %>', thumb: '<%= photo.file.url :small %>', url: '' },
+            <% end %>
         <% end %>
-    <% end %>
+    ]
+</script>
+
+<style type="text/css">
+    ul#demo-block{ margin:0 15px 15px 15px; }
+    ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('/assets/supersized/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+    ul#demo-block li a{ color:#eee; font-weight:bold; }
+</style>
+<!--End of styles-->
+
+<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+
+<div id="thumb-tray" class="load-item">
+  <div id="thumb-back"></div>
+  <div id="thumb-forward"></div>
+</div>
+
+<!--Time Bar-->
+<div id="progress-back" class="load-item">
+  <div id="progress-bar"></div>
+</div>
+
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+  <div id="controls">
+
+    <a id="play-button"><img id="pauseplay" src="/assets/supersized/pause.png"/></a>
+
+    <!--Slide counter-->
+    <div id="slidecounter">
+      <span class="slidenumber"></span> / <span class="totalslides"></span>
+    </div>
+
+    <!--Slide captions displayed here-->
+    <div id="slidecaption"></div>
+
+    <!--Thumb Tray button-->
+    <a id="tray-button"><img id="tray-arrow" src="/assets/supersized/button-tray-up.png"/></a>
+
+    <!--Navigation-->
+    <ul id="slide-list"></ul>
+
   </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>

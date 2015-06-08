@@ -1,4 +1,4 @@
-$(function()
+$(window).load(function()
 {
     function saveOrder() {
         var order = getOrder();
