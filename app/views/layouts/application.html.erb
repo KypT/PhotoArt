@@ -2,19 +2,37 @@
 <html>
 <head>
   <title>PhotoArt</title>
+
+  <%= yield :meta %>
+
   <%= stylesheet_link_tag 'bootstrap-theme.min' %>
   <%= stylesheet_link_tag 'bootstrap.min' %>
   <%= stylesheet_link_tag "application", params[:controller] %>
-
-
   <%= javascript_include_tag 'bootstrap.min' %>
   <%= javascript_include_tag "application", params[:controller] %>
 
   <%= yield :assets %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '833150406780657',
+            xfbml      : true,
+            version    : 'v2.3'
+        });
+    };
 
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 <nav class="navbar navbar-inverse container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
