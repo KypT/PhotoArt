@@ -1,0 +1,23 @@
+.events-container {
+  margin-top: 20px;
+  .event {
+    .panel-heading {
+      background-color: #C0C0C0;
+      background-image: none;
+    }
+    color: black;
+    h3 {
+      color: black;
+    }
+  }
+}
+
+.link-add-event,
+.link-to-events,
+.link-edit-event {
+  margin-bottom: 20px;
+}
+
+.link-edit-event {
+  color: white;
+}
