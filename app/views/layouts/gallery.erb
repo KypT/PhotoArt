@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhotoArt</title>
+
+  <%= yield :meta %>
+
+  <%= stylesheet_link_tag 'bootstrap-theme.min' %>
+  <%= stylesheet_link_tag 'bootstrap.min' %>
+  <%= stylesheet_link_tag "application", params[:controller] %>
+  <%= javascript_include_tag "application", params[:controller] %>
+  <%= javascript_include_tag 'bootstrap.min' %>
+
+  <%= yield :assets %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
