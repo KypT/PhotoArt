@@ -5,6 +5,8 @@ $(window).load( function() {
             autoplay         :   0,		// Length between transitions
             transition       :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
             transition_speed : 700,		// Speed of transition
+            fit_portrait     :   1,			// Portrait images will not exceed browser height
+            fit_landscape	 :   1,
 
             // Components
             slide_links		 : 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
