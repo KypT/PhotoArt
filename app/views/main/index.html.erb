@@ -2,7 +2,7 @@
     <div class = 'collage-container'></div>
     <div class = 'sections row'>
       <div class="section col-md-3">
-        <%= link_to controller: 'main', action: 'photo' do %>
+        <%= link_to events_path section: 'photography' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-photo.jpg' %>)'></div>
             <h1 class = 'title'>Фотосъемка</h1>
             <div class="section-description">
@@ -13,7 +13,7 @@
         <% end %>
       </div>
       <div class="section col-md-3">
-        <%= link_to controller: 'main', action: 'travel' do %>
+        <%= link_to events_path section: 'travel' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-travel.jpg' %>)'></div>
             <h1 class = 'title'>Фотоэкспедиции</h1>
             <div class="section-description">
@@ -25,7 +25,7 @@
         <% end %>
       </div>
       <div class="section col-md-3">
-        <%= link_to controller: 'main', action: 'learn' do %>
+        <%= link_to events_path section: 'teaching' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-learning.jpg' %>)'></div>
             <h1 class = 'title'>Фотошкола</h1>
             <div class="section-description">

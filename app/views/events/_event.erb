@@ -1,0 +1,10 @@
+<div class = "event panel panel-default">
+  <div class = 'panel-heading'>
+    <%= link_to event_path section: section, id: event.id do %>
+        <h3 class = "article-title"><%= event.title %></h3>
+    <% end %>
+  </div>
+  <div class = 'panel-body'>
+    <div class = "article-text"><%= event.content.html_safe %></div>
+  </div>
+</div>
