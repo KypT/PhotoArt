@@ -5,7 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gallery_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gallery_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -74,21 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33188722" vertical-offset="204" max-vertical-offset="1326">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1326">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gallery_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/gallery_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="323">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.34907597" vertical-offset="0" max-vertical-offset="487">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -152,10 +152,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/gallery.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/gallery.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/gallery_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/gallery/slideshow.erb" />
         <option value="$PROJECT_DIR$/app/views/gallery/_albumCard.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/gallery_controller.rb" />
       </list>
     </option>
   </component>
@@ -477,12 +477,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00003" summary="added administration panel">
-      <created>1425671764116</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1425671764116</updated>
-    </task>
     <task id="LOCAL-00004" summary="added secret key for the production">
       <created>1425674854417</created>
       <option name="number" value="00004" />
@@ -771,7 +765,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433882084485</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="gallery cards quickfix">
+      <created>1433882195244</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1433882195244</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -816,7 +816,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added gallery" />
     <MESSAGE value="added:" />
     <MESSAGE value="add sort to pictures" />
     <MESSAGE value="bugfixes" />
@@ -841,7 +840,8 @@
     <MESSAGE value="gallery update" />
     <MESSAGE value="gallery quickfix" />
     <MESSAGE value="gallery cards update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery cards update" />
+    <MESSAGE value="gallery cards quickfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery cards quickfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1191,18 +1191,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/gallery_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
+    <entry file="file://$PROJECT_DIR$/app/controllers/gallery_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33188722" vertical-offset="204" max-vertical-offset="1326">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.34907597" vertical-offset="0" max-vertical-offset="487">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>

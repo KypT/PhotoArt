@@ -9,5 +9,6 @@ class GalleryController < ApplicationController
 
   def index
     @albums = Album.all
+    render layout: 'application'
   end
 end
