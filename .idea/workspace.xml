@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery/_albumCard.erb" afterPath="$PROJECT_DIR$/app/views/gallery/_albumCard.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery/slideshow.erb" afterPath="$PROJECT_DIR$/app/views/gallery/slideshow.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoArt.iws" />
@@ -79,8 +77,8 @@
       <file leaf-file-name="gallery.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66377443" vertical-offset="357" max-vertical-offset="1309">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.33188722" vertical-offset="204" max-vertical-offset="1326">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -479,12 +477,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00002" summary="added administration panel">
-      <created>1425167995689</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1425167995689</updated>
-    </task>
     <task id="LOCAL-00003" summary="added administration panel">
       <created>1425671764116</created>
       <option name="number" value="00003" />
@@ -773,13 +765,20 @@
       <option name="project" value="LOCAL" />
       <updated>1433880229275</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="gallery cards update">
+      <created>1433882084485</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1433882084485</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33203632" sideWeight="0.66902316" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -796,7 +795,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3242542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -818,7 +816,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="show errors even in production" />
     <MESSAGE value="added gallery" />
     <MESSAGE value="added:" />
     <MESSAGE value="add sort to pictures" />
@@ -843,7 +840,8 @@
     <MESSAGE value="supersized fix" />
     <MESSAGE value="gallery update" />
     <MESSAGE value="gallery quickfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery quickfix" />
+    <MESSAGE value="gallery cards update" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery cards update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1165,6 +1163,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9067245" vertical-offset="143" max-vertical-offset="1241">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66377443" vertical-offset="357" max-vertical-offset="1309">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.33188722" vertical-offset="204" max-vertical-offset="1326">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
