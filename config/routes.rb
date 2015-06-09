@@ -2,10 +2,7 @@ Rails.application.routes.draw do
 
   root 'main#index'
 
-  get '/travel' => 'main#travel'
-  get '/about' => 'main#about'
-  get '/teaching' => 'main#learn'
-  get '/photography' => 'main#photo'
+  get 'about' => 'main#about'
   get 'photo/index'
   get 'gallery' => 'gallery#index'
   get 'gallery?album=:id' => 'gallery#index'
@@ -21,6 +18,10 @@ Rails.application.routes.draw do
     resources :albums do
       resources :photos
     end
+  end
+
+  scope ':section/' do
+    resources :events
   end
 
   devise_for :users
