@@ -7,9 +7,11 @@
 <% end %>
 
 <div class = 'container'>
-      <%= link_to '/articles', :class => "link-to-news" do %>
+  <div class = 'link-to-news'>
+      <%= link_to '/articles' do %>
           <span class="glyphicon glyphicon-chevron-left"></span>
           Другие новости
       <% end %>
+  </div>
     <%= render partial: 'article', locals: {article: @article} %>
 </div>
