@@ -39,16 +39,20 @@
   }
 }
 
-.gallery-go-back {
+.gallery-go-back,
+.gallery-go-index {
   display: inline-block;
   position: fixed;
-  top: 20px;
+  top: 60px;
   left: 20px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.7);
   &:hover {
     background-color: black;
   }
+}
+.gallery-go-index {
+  top: 20px;
 }
 
 #tray-button {
