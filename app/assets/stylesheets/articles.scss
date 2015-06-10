@@ -25,6 +25,7 @@
   .panel-body  {
     a {
       color: #3A6FAB;
+      background-color: rgb(219, 219, 219);;
       font-weight: bold;
       &:hover {
         color: #9d9d9d;
@@ -35,9 +36,6 @@
     margin-top: 15px;
     margin-bottom: 5px;
     border-top: #b4b4b4 1px solid;
-  }
-  .panel-body {
-    background-color: rgb(219, 219, 219);;
   }
 }
 

@@ -1,3 +1,11 @@
+<%= content_for :meta do %>
+    <meta property="og:url"         content="<%= request.original_url %>" />
+    <meta property="og:type"        content="article" />
+    <meta property="og:title"       content="<%= @event.title %>" />
+    <meta property="og:description" content="" />
+    <meta property="fb:app_id"      content="833150406780657" />
+<% end %>
+
 <div class="container events-container">
     <%= link_to events_path, :class => "link-to-events" do %>
         <span class="glyphicon glyphicon-chevron-left"></span>
