@@ -1,9 +1,9 @@
 <% image = album.photos.find_by_id(album.cover) || album.photos.first  %>
 <% image_url = image ? image.file.url(:medium) : image_path("missing-image.png")  %>
 
-<div class = 'album-card thumbnail'>
-  <img src="<%= image_url %>" alt=""/>
+<div class = 'album-card thumbnail' style="background-image: url(<%= image_url %>)">
   <div class = 'album-caption'>
-    <span><%= album.name %></span>
+    <%= album.name %>
   </div>
+
 </div>
