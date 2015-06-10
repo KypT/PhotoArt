@@ -9,7 +9,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -90,11 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.558" vertical-offset="690" max-vertical-offset="1394">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state vertical-scroll-proportion="-20.538462" vertical-offset="486" max-vertical-offset="1394">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -127,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="561" max-vertical-offset="1496">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="1496">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -196,9 +196,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/articles.scss" />
         <option value="$PROJECT_DIR$/app/views/events/_event.erb" />
         <option value="$PROJECT_DIR$/app/views/events/show.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/gallery.scss" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
       </list>
     </option>
   </component>
@@ -206,10 +206,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -502,12 +502,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00015" summary="update">
-      <created>1428508857773</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1428508857773</updated>
-    </task>
     <task id="LOCAL-00016" summary="update">
       <created>1428508971766</created>
       <option name="number" value="00016" />
@@ -796,16 +790,22 @@
       <option name="project" value="LOCAL" />
       <updated>1433950087545</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="main page update">
+      <created>1433950284627</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1433950284627</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145266" sideWeight="0.66902316" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675709" sideWeight="0.66902316" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14395887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -864,9 +864,9 @@
     <MESSAGE value="added favicon" />
     <MESSAGE value="added link to home to gallery" />
     <MESSAGE value="updated events" />
-    <MESSAGE value="main page update" />
     <MESSAGE value="gallery update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery update" />
+    <MESSAGE value="main page update" />
+    <option name="LAST_COMMIT_MESSAGE" value="main page update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1206,14 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="561" max-vertical-offset="1496">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769" vertical-offset="289" max-vertical-offset="1241">
@@ -1224,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.558" vertical-offset="690" max-vertical-offset="1394">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state vertical-scroll-proportion="-20.538462" vertical-offset="486" max-vertical-offset="1394">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1234,6 +1226,14 @@
             <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
