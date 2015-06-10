@@ -3,6 +3,7 @@
     <%= link_to "/articles/#{article.id}" do %>
         <h3 class = "article-title"><%= article.title %></h3>
     <% end %>
+    <div class = 'article-date title'><%= article.created_at.to_s[0..10] %></div>
   </div>
   <div class = 'panel-body'>
     <div class = "article-text"><%= article.content.html_safe %></div>
