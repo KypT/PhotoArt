@@ -28,6 +28,11 @@
 }
 
 #supersized {
+  height: calc(100% - 45px) !important;
+  li {
+    height: calc(100% - 45px) !important;
+  }
+
   img {
     width: auto !important;
     height: auto !important;
