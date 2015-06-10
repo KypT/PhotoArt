@@ -1,48 +1,75 @@
 <div class="main-content container-fluid">
-    <div class = 'collage-container'></div>
     <div class = 'sections row'>
-      <div class="section col-md-3">
+      <div class="section col-md-4">
         <%= link_to events_path section: 'photography' do %>
-            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-photo.jpg' %>)'></div>
-            <h1 class = 'title'>Фотосъемка</h1>
-            <div class="section-description">
-              <p> Классический портрет в студии и на пленере </p>
-              <p> Пейзаж, репортаж </p>
-              <p> Семейная фотография, корпоратив </p>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-photo.jpg' %>)'>
+              <h1 class = 'section-title'>Фотосъемка</h1>
+              <div class="section-description">
+                <span> Классический портрет в студии и на пленере </span> <br/>
+                <span> Пейзаж, репортаж </span> <br/>
+                <span> Семейная фотография, корпоратив </span> <br/>
+              </div>
             </div>
         <% end %>
       </div>
-      <div class="section col-md-3">
+      <div class="section col-md-4">
         <%= link_to events_path section: 'travel' do %>
-            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-travel.jpg' %>)'></div>
-            <h1 class = 'title'>Фотоэкспедиции</h1>
-            <div class="section-description">
-              <p>
-                На автомобиле по горам Кавказа, Русскому Северу, Беларуси и Балтии к открытиям и впечатлениям
-              </p>
-              <p>  Обучающие фототуры </p>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-travel.jpg' %>)'>
+              <h1 class = 'section-title'>Фотоэкспедиции</h1>
+              <div class="section-description">
+                <p>
+                  На автомобиле по горам Кавказа, Русскому Северу, Беларуси и Балтии к открытиям и впечатлениям
+                </p>
+                <p>  Обучающие фототуры </p>
+              </div>
             </div>
         <% end %>
       </div>
-      <div class="section col-md-3">
+      <div class="section col-md-4">
         <%= link_to events_path section: 'teaching' do %>
-            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-learning.jpg' %>)'></div>
-            <h1 class = 'title'>Фотошкола</h1>
-            <div class="section-description">
-              <p>
-                Фотографический практикум индивидуально или в малой группе. Очное или онлайн-обучение
-              </p>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-learning.jpg' %>)'>
+              <h1 class = 'section-title'>Фотошкола</h1>
+              <div class="section-description">
+                <p>
+                  Фотографический практикум индивидуально или в малой группе. Очное или онлайн-обучение
+                </p>
+              </div>
             </div>
         <% end %>
     </div>
-      <div class="section col-md-3">
+      <div class="section col-md-4">
         <%= link_to controller: 'main', action: 'about' do %>
-            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-artist.jpg' %>)'></div>
-            <h1 class = 'title'>Об авторе</h1>
-            <div class="section-description">
-              <p>
-                Подробнее обо мне
-              </p>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-artist.jpg' %>)'>
+              <h1 class = 'section-title'>Об авторе</h1>
+              <div class="section-description">
+                <p>
+                  Подробнее обо мне
+                </p>
+              </div>
+            </div>
+        <% end %>
+      </div>
+      <div class="section col-md-4">
+        <%= link_to controller: 'articles', action: 'all' do %>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-articles.jpg' %>)'>
+              <h1 class = 'section-title'>Новости</h1>
+              <div class="section-description">
+                <p>
+                  Узнать о последних событиях
+                </p>
+              </div>
+            </div>
+        <% end %>
+      </div>
+      <div class="section col-md-4">
+        <%= link_to controller: 'gallery', action: 'index' do %>
+            <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-gallery.jpg' %>)'>
+              <h1 class = 'section-title'>Галерея</h1>
+              <div class="section-description">
+                <p>
+                  Архив фотографий, разложенных по тематическим альбомам
+                </p>
+              </div>
             </div>
         <% end %>
       </div>
