@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="165005701">
+    <data-source source="LOCAL" name="Rails PhotoArt: default" uuid="c7d87de0-f728-4f54-bc4c-ba2e07e9f3a5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/photodb</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails PhotoArt: development" uuid="15a9581c-3a9a-4fee-84f1-de7bdf5785dc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/photodb</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails PhotoArt: test" uuid="09079e5d-1c19-41d4-8fa8-192741bdc6b8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/photodb</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails PhotoArt: production" uuid="c6738ad5-66d7-4143-8ced-c0ca45fabaed">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/photodb</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
