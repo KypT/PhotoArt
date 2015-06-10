@@ -9,7 +9,17 @@
       color: black;
     }
   };
-  .social {
-    padding: 5px 10px;
+  hr {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-top: #b4b4b4 1px solid;
   }
+  .panel-body {
+    background-color: rgb(219, 219, 219);;
+  }
+}
+
+.link-to-news {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
