@@ -11,4 +11,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 Rails.application.config.assets.precompile += ['*']
+Rails.application.config.assets.precompile += ['glyphicons-halflings-regular.ttf']
+Rails.application.config.assets.precompile += ['glyphicons-halflings-regular.woff']
+Rails.application.config.assets.precompile += ['glyphicons-halflings-regular.woff2']
 Rails.application.config.assets.precompile += ['/admin/*']
