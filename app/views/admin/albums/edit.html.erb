@@ -4,7 +4,7 @@
     <%= javascript_include_tag 'Sortable' %>
 <% end %>
 
-<div class = 'container-fluid'>
+<div class = 'container album-container'>
     <div class = 'row'>
       <div class = 'col-md-12'>
         <%= render partial: 'form', locals: {render_for: 'edit'} %>
@@ -16,14 +16,14 @@
 
   <div class = "row" id = 'drag-parent'>
     <% @photos.each do |pic| %>
-        <div class = "col-sm-2 photo-container" data-id = '<%= pic.id %>'>
+        <div class = "col-sm-3 photo-container" data-id = '<%= pic.id %>'>
           <div class="thumbnail photo" id = 'photo-<%= pic.id %>'>
             <img src="<%= pic.file.url(:small) %>" class = 'photo'>
             <div class="caption">
               <h4><%= pic.name %></h4>
               <p>
                 <a class="btn btn-primary btn-sm" data-id = '<%= pic.id %>' role="button" data-toggle="modal" data-target="#myModal">Редактировать</a>
-                <%= link_to 'Удалить', '', class: 'btn btn-danger btn-sm remove', data: { id: pic.id} %>
+                <%= link_to 'Удалить', '', class: 'btn btn-danger btn-sm remove', data: { id: pic.id } %>
               </p>
             </div>
           </div>

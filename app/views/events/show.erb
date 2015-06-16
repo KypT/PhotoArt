@@ -7,18 +7,24 @@
 <% end %>
 
 <div class="container events-container">
-    <%= link_to events_path, :class => "link-to-events" do %>
+    <%= link_to events_path, :class => "link link-to-events" do %>
         <span class="glyphicon glyphicon-chevron-left"></span>
-        Вернуться
+        К другим событиям
     <% end %>
+  <div class = 'link'>
+    <%= link_to controller: 'main', action: 'index' do %>
+        <span class="glyphicon glyphicon-home"></span>
+        На главную
+    <% end %>
+  </div>
   <% if user_signed_in? %>
       <%= link_to( edit_event_path(id: @event.id), {class: 'link-edit-event btn btn-warning btn-lg'}) do %>
           <span class="glyphicon glyphicon-edit"></span>
-          Редактировать статью
+          Редактировать
       <% end %>
       <%= link_to( event_path(id: @event.id), {method: 'delete', data: { confirm: 'Точно?'}, class: 'link-edit-event btn btn-danger btn-lg'}) do %>
           <span class="glyphicon glyphicon-remove"></span>
-          Удалить статью
+          Удалить
       <% end %>
   <% end %>
     <%= render partial: 'event', locals: {event: @event, section: @section} %>

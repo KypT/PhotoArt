@@ -8,18 +8,11 @@
         </h2>
         <div class = 'row'>
         <% @albums.each do | album | %>
-            <div class = 'col-md-4'>
-              <a href="<%= edit_admin_album_path album %>">
-                <div class = 'thumbnail'>
-                <% image = album.photos.find_by_id(album.cover) || album.photos.first  %>
-                <% image_url = image ? image.file.url(:medium) : image_path("missing-image.png")  %>
-                <%= image_tag image_url %>
-                  <div class = 'caption'>
-                    <h4><%= album.name %></h4>
-                  </div>
-                </div>
-              </a>
-            </div>
+              <div class = 'album col-md-4'>
+                <%= link_to edit_admin_album_path album do %>
+                    <%= render partial: 'gallery/albumCard', locals: {album: album} %>
+                <% end %>
+              </div>
         <% end %>
         </div>
       </div>
