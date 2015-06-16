@@ -4,8 +4,22 @@
 
 .thumbnail.photo
 {
-  height: 250px;
-  max-height: 250px;
+  height: 350px;
+  .img-container {
+    position: relative;
+    height: 250px;
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      max-height: 250px;
+      max-width: 100%;
+    }
+  }
   .caption {
     height: 100px;
   }
