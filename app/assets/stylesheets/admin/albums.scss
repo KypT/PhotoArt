@@ -2,9 +2,13 @@
 // They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.thumbnail
+.thumbnail.photo
 {
-  min-height: 240px;
+  height: 250px;
+  max-height: 250px;
+  .caption {
+    height: 100px;
+  }
 }
 
 .modal-footer
@@ -37,7 +41,7 @@
 }
 
 .album-container {
-  padding: 0;
+  padding: 20px 0;
 }
 
 .album-form {

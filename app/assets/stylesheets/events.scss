@@ -42,9 +42,14 @@
 .link-add-event,
 .link-to-events,
 .link-edit-event {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .link-edit-event {
   color: white;
+}
+
+.events-go-home {
+  position: fixed;
+  top: 93px;
 }

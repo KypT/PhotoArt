@@ -1,12 +1,24 @@
-<div class="container events-container">
-  <% if user_signed_in? %>
-      <%= link_to({action: 'new', section: @section}, {class: 'link-add-event btn btn-success btn-lg'}) do %>
-          <span class="glyphicon glyphicon-plus"></span>
-          Добавить статью
+<div class="container-fluid events-container">
+  <div class="row">
+    <div class="col-md-2">
+      <% if user_signed_in? %>
+          <%= link_to({action: 'new', section: @section}, {class: 'link-add-event btn btn-success btn-lg'}) do %>
+              <span class="glyphicon glyphicon-plus"></span>
+              Добавить статью
+          <% end %>
       <% end %>
-  <% end %>
+      <div class = 'link events-go-home'>
+        <%= link_to controller: 'main', action: 'index' do %>
+            <span class="glyphicon glyphicon-home"></span>
+            На главную
+        <% end %>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <% @events.each do | e | %>
+          <%= render partial: 'event', locals: {event: e, section: @section} %>
+    <% end %>
+    </div>
+  </div>
 
-  <% @events.each do | e | %>
-    <%= render partial: 'event', locals: {event: e, section: @section} %>
-  <% end %>
 </div>
