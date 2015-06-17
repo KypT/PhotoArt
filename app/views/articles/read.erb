@@ -7,11 +7,17 @@
 <% end %>
 
 <div class = 'container'>
-  <div class = 'link-to-news'>
+    <div class = 'link link-to-news'>
       <%= link_to '/articles' do %>
           <span class="glyphicon glyphicon-chevron-left"></span>
           Другие новости
       <% end %>
-  </div>
+    </div>
+    <div class = 'link'>
+    <%= link_to controller: 'main', action: 'index' do %>
+      <span class="glyphicon glyphicon-home"></span>
+      На главную
+    <% end %>
+    </div>
     <%= render partial: 'article', locals: {article: @article} %>
 </div>
