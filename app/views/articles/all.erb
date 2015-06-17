@@ -1,5 +1,17 @@
-<div class="container">
-    <% @articles.each do | article | %>
-        <%= render partial: 'article', locals: {article: article} %>
-    <% end %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <div class = 'link articles-to-home'>
+        <%= link_to controller: 'main', action: 'index' do %>
+            <span class="glyphicon glyphicon-home"></span>
+            На главную
+        <% end %>
+        </div>
+    </div>
+    <div class="col-md-8">
+      <% @articles.each do | article | %>
+          <%= render partial: 'article', locals: {article: article} %>
+      <% end %>
+    </div>
+  </div>
 </div>
