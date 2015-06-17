@@ -12,6 +12,7 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += ['*.js']
 Rails.application.config.assets.precompile += ['*.scss']
+Rails.application.config.assets.precompile += ['*.jpg']
 Rails.application.config.assets.precompile += ['*.css']
 Rails.application.config.assets.precompile += ['/admin/*.js']
 Rails.application.config.assets.precompile += ['/admin/*.scss']
