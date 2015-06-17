@@ -1,90 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PhotoArt</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <title>PhotoArt</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
-  <%= yield :meta %>
+    <%= yield :meta %>
 
-  <%= stylesheet_link_tag "application", params[:controller] %>
-  <%= javascript_include_tag "application", params[:controller] %>
-  <%= yield :assets %>
+    <%= stylesheet_link_tag "application", params[:controller] %>
+    <%= javascript_include_tag "application", params[:controller] %>
+    <%= yield :assets %>
 
-  <%= csrf_meta_tags %>
+    <%= csrf_meta_tags %>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-      (function (d, w, c) {
-          (w[c] = w[c] || []).push(function() {
-              try {
-                  w.yaCounter30930411 = new Ya.Metrika({id:30930411,
-                      trackLinks:true});
-              } catch(e) { }
-          });
-
-          var n = d.getElementsByTagName("script")[0],
-                  s = d.createElement("script"),
-                  f = function () { n.parentNode.insertBefore(s, n); };
-          s.type = "text/javascript";
-          s.async = true;
-          s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-          if (w.opera == "[object Opera]") {
-              d.addEventListener("DOMContentLoaded", f, false);
-          } else { f(); }
-      })(document, window, "yandex_metrika_callbacks");
-  </script>
-  <noscript><div><img src="//mc.yandex.ru/watch/30930411" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-
+    <%= render 'layouts/yandexMetrika' %>
 </head>
 <body>
-<div id = 'fb-root'></div>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '833150406780657',
-            xfbml      : true,
-            version    : 'v2.3'
-        });
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<nav class="navbar navbar-inverse container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Всеволод Тоботрас</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-            <% @sections.each do | section | %>
-                <li><a href = '<%=section.url%>'><%=section.name%></a></li>
-            <% end %>
-          <%= yield :controls %>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <% if user_signed_in? and controller.is_a? AdminController %>
-            <li><%= link_to('Выйти', destroy_user_session_path, :method => :delete) %></li>
-        <% end %>
-      </ul>
-    </div>
-</nav>
-
-<%= yield %>
+    <%= render 'layouts/facebookInit' %>
+    <%= render 'layouts/navbar' %>
+    <%= yield %>
 
 </body>
 </html>
