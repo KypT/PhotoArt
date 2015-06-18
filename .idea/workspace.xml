@@ -2,107 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light_gdi.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light_gdi.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light_gdi.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light_gdi.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular_gdi.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular_gdi.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular_gdi.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular_gdi.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/bg-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/bg-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/button-tray-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/button-tray-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/code_light.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/nav-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/nav-dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/progress-back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/progress-bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/rosa_marena.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-articles.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-artist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-gallery.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-learning.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-photo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/section-travel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/supersized-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/thumb-back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supersized/thumb-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Light_gdi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/MyriadPro-Regular_gdi.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light_gdi.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light_gdi.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light_gdi.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light_gdi.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Light_gdi.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular_gdi.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular_gdi.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular_gdi.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular_gdi.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\MyriadPro-Regular_gdi.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\code_light.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\fonts\rosa_marena.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\.keep" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-articles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-artist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-gallery.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-learning.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-photo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\section-travel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\back.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\bg-black.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\bg-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\button-tray-down.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\button-tray-up.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\forward.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\nav-dot.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\pause.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\play.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\progress-back.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\progress-bar.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\supersized-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\thumb-back.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\images\supersized\thumb-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\application.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\article.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\articles.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\events.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\gallery.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\header.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\learn.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\main.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PhotoArt.iml" afterPath="$PROJECT_DIR$/.idea/PhotoArt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/article.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/articles.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/events.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/gallery.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/learn.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Users\Alex\RubyMine Projects\PhotoArt\app\assets\stylesheets\admin.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.css.scss" />
     </list>
     <ignored path="PhotoArt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -211,8 +120,8 @@
       <file leaf-file-name="assets.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65088755">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.5532544">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -588,12 +497,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00027" summary="quickfix">
-      <created>1431281676848</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1431281676848</updated>
-    </task>
     <task id="LOCAL-00028" summary="added images to news and redesign">
       <created>1431610902521</created>
       <option name="number" value="00028" />
@@ -882,15 +785,21 @@
       <option name="project" value="LOCAL" />
       <updated>1434576227868</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="site update">
+      <created>1434650049100</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1434650049100</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730016" sideWeight="0.49734244" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.460972" sideWeight="0.66902316" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.460972" sideWeight="0.66902316" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14395887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1275,8 +1184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65088755">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.5532544">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,49 @@
+.article {
+  color: black;
+  margin-top: 20px;
+  border-color: #080808;
+  border-radius: 4px;
+
+  .panel-heading {
+    background-color: rgb(23, 23, 23);;
+    background-image: none;
+    border-radius: 0;
+    .article-date {
+      font-size: 19px;
+      color: rgb(140, 140, 140);
+    }
+    .article-title {
+      color: #ADADAD;
+      text-transform: uppercase;
+      margin-top: 10px;
+      margin-bottom: 2px;
+      &:hover {
+        color: white;
+      }
+    }
+  };
+  .panel-body  {
+    a {
+      color: #3A6FAB;
+      background-color: rgb(219, 219, 219);;
+      font-weight: bold;
+      &:hover {
+        color: #9d9d9d;
+      }
+    }
+  }
+  hr {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-top: #b4b4b4 1px solid;
+  }
+}
+
+.link-to-news {
+  margin-top: 20px;
+}
+.articles-to-home {
+  position: fixed;
+  top: 93px;
+  left: 20px;
+}

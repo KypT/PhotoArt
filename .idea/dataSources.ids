@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails PhotoArt: default" uuid="c7d87de0-f728-4f54-bc4c-ba2e07e9f3a5">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails PhotoArt: development" uuid="15a9581c-3a9a-4fee-84f1-de7bdf5785dc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails PhotoArt: test" uuid="09079e5d-1c19-41d4-8fa8-192741bdc6b8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails PhotoArt: production" uuid="c6738ad5-66d7-4143-8ced-c0ca45fabaed">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
