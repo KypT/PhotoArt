@@ -12,4 +12,11 @@ $(window).load( function() {
             slide_links		 : 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
             slides 			 : 	window.slides			// Slideshow Images
         });
+
+    $('#thumb-tray').mouseleave(function() {
+        setTimeout(function() {
+            $('#tray-button').data('toggle', false);
+            if ($('#thumb-tray:hover').length == 0)
+                $(vars.thumb_tray).stop().animate({bottom : -$(vars.thumb_tray).height(), avoidTransforms : true}, 300 );}, 500);
+    })
 });
