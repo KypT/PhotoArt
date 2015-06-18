@@ -10,9 +10,12 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.scss, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-Rails.application.config.assets.precompile += %w(/admin/*.js)
-Rails.application.config.assets.precompile += %w(/admin/*.scss)
-Rails.application.config.assets.precompile += %w(*.js)
-Rails.application.config.assets.precompile += %w(*.css)
-Rails.application.config.assets.precompile += %w(*.scss)
-Rails.application.config.assets.precompile += %w(*.jpg)
+%w( main gallery events articles admin admin/albums admin/articles ).each do |controller|
+  Rails.application.config.assets.precompile += ["#{controller}.js.coffee", "#{controller}.css"]
+end
+
+%w( fileinput supersized supersized.shutter ).each do |vendor|
+  Rails.application.config.assets.precompile += ["#{vendor}.js.coffee", "#{vendor}.css"]
+end
+
+Rails.application.config.assets.precompile += %w( jquery.easing.min.js Sortable.js )
