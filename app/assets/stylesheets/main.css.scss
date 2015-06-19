@@ -63,6 +63,7 @@
 
 .about-container {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .about-photo {
@@ -79,4 +80,51 @@
   float: right;
   width: 50%;
   padding: 0 20px;
+}
+
+.feedback-placeholder {
+  &::-webkit-input-placeholder { font-size: 18px;  color:#E0DBDB; }
+  &::-moz-placeholder          { font-size: 18px; color:#E0DBDB; }/* Firefox 19+ */
+  &:-moz-placeholder           { font-size: 18px; color:#E0DBDB; }/* Firefox 18- */
+  &:-ms-input-placeholder      { font-size: 18px; color:#E0DBDB; }
+}
+
+.feedback-form {
+  input,
+  textarea {
+    background-color: rgb(11, 11, 11);
+    font-size: 18px;
+    color: white;
+
+    &:hover {
+      background: black;
+    }
+    @extend .feedback-placeholder
+  }
+
+  textarea {
+    max-width: 100%;
+  }
+  button {
+    color: #cccccc;
+    font-size: 18px;
+    background: #181818;
+    &:hover,
+    &:focus {
+      color: white;
+      background: black;
+    }
+  }
+}
+
+.about-img {
+  width: 100%
+}
+
+.about-text {
+  text-indent: 30px;
+
+  ul {
+    list-style: none;
+  }
 }

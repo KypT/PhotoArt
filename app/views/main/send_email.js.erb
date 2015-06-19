@@ -1,0 +1,4 @@
+var $form = $('.feedback-form');
+$.when($form.fadeOut()).done(function() {
+    $form.after('<h1>Спасибо, ваше сообщение отправлено!</h1>');
+});
