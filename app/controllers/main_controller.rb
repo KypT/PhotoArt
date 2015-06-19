@@ -3,6 +3,7 @@ class MainController < ApplicationController
   end
 
   def about
+    @page_title = 'Всеволод Тоботрас. Об авторе'
   end
 
   def send_email

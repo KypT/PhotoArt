@@ -8,5 +8,4 @@ class ApplicationController < ActionController::Base
   def load_sections
     @sections = Section.all
   end
-
 end

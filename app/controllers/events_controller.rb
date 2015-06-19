@@ -3,11 +3,13 @@ class EventsController < ApplicationController
   def index
     @section = params[:section]
     @events = Event.all.where section: @section
+    @page_title = 'Всеволод Тоботрас. ' + translate_section(@section)
   end
 
   def show
     @section = params[:section]
     @event = Event.find(params[:id])
+    @page_title = 'Всеволод Тоботрас. ' + @event.title
   end
 
   def new
@@ -46,5 +48,9 @@ class EventsController < ApplicationController
   private
   def event_params
     params.require(:event).permit(:title, :content)
+  end
+
+  def translate_section(section)
+    {'travel' => 'Фотоэкспедиции', 'photography' => 'Фотосъемка', 'teaching' => 'Фотошкола', }[section]
   end
 end
