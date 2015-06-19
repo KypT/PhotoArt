@@ -5,7 +5,22 @@
 }
 
 .navbar-nav li {
-    font-size: 20px;
+  font-size: 20px;
+  a {
+    padding: 15px 10px;
+    @media (max-width: 1015px) {
+      padding: 5px 0;
+    }
+  }
+
+  @media (max-width: 1015px) {
+    width: 33.3333333%;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    text-align: left;
+  }
 }
 
 .navbar {
@@ -13,12 +28,17 @@
 }
 
 .navbar-inverse .navbar-brand {
-    color: #D7D7D7;
-    font-family: 'Rosa Marena', sans-serif;
-    font-size: 32px;
+  color: #D7D7D7;
+  font-family: 'Rosa Marena', sans-serif;
+  font-size: 32px;
+  margin: 10px 5px;
+  padding: 15px 5px;
 }
 
-.navbar-inverse .navbar-brand,
-.nav.navbar-nav {
-    margin: 10px;
+ul.navbar-nav {
+  margin: 10px;
+  @media (max-width: 1015px) {
+    width: calc(100% - 240px);
+    margin: 5px;
+  }
 }

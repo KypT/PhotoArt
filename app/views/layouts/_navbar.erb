@@ -16,11 +16,5 @@
       <% end %>
       <%= yield :controls %>
     </ul>
-
-    <ul class="nav navbar-nav navbar-right">
-      <% if user_signed_in? and controller.is_a? AdminController %>
-          <li><%= link_to('Выйти', destroy_user_session_path, :method => :delete) %></li>
-      <% end %>
-    </ul>
   </div>
 </nav>
