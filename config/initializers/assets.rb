@@ -11,7 +11,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 
 %w( main gallery events articles admin admin/albums admin/articles ).each do |controller|
-  Rails.application.config.assets.precompile += ["#{controller}.js.coffee", "#{controller}.css"]
+  Rails.application.config.assets.precompile += ["#{controller}.js", "#{controller}.css"]
 end
 
 %w( fileinput supersized supersized.shutter ).each do |vendor|
@@ -19,3 +19,4 @@ end
 end
 
 Rails.application.config.assets.precompile += %w( jquery.easing.min.js Sortable.js )
+Rails.application.config.assets.precompile += %w( *.jpg *.png *.gif )

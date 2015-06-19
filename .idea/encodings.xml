@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/mailers/photo_mailer.rb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/articles/all.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/layouts/_facebookInit.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/layouts/_navbar.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/layouts/_yandexMetrika.erb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/main/send_email.js.erb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/photo_mailer/send_message_to_author.erb" charset="UTF-8" />
   </component>
 </project>
