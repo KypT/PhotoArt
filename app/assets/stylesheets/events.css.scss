@@ -52,4 +52,7 @@
   position: fixed;
   top: 93px;
   left: 20px;
+  @media (max-width: 765px) {
+    display: none;
+  }
 }
