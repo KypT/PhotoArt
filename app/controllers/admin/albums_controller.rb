@@ -25,7 +25,7 @@ class Admin::AlbumsController < ApplicationController
     @photos = {}
 
       if @album.save
-        render :edit
+        redirect_to edit_admin_album_path @album
       else
         render :new, alert: 'Название альбома не может отсутствовать'
       end

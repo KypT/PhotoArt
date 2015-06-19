@@ -1,21 +1,8 @@
-<% content_for :controls do %>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Выбрать альбом<span class="caret"></span></a>
-      <ul class="dropdown-menu" role="menu">
-        <% @albums.each do | album | %>
-            <li><a href = '<%= album.id %>'><%= album.name %></a></li>
-        <% end %>
-        <%= yield :controls %>
-      </ul>
-    </li>
-    <li><%= params[:id] %></li>
-<% end %>
-
 <% content_for :assets do %>
     <%= stylesheet_link_tag 'supersized' %>
     <%= stylesheet_link_tag 'supersized.shutter' %>
     <%= javascript_include_tag 'jquery.easing.min' %>
-    <%= javascript_include_tag 'supersized.3.2.7' %>
+    <%= javascript_include_tag 'supersized' %>
     <%= javascript_include_tag 'supersized.shutter' %>
 <% end %>
 
