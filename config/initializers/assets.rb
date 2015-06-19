@@ -15,7 +15,7 @@ Rails.application.config.assets.version = '1.0'
 end
 
 %w( fileinput supersized supersized.shutter ).each do |vendor|
-  Rails.application.config.assets.precompile += ["#{vendor}.js.coffee", "#{vendor}.css"]
+  Rails.application.config.assets.precompile += ["#{vendor}.js", "#{vendor}.css"]
 end
 
 Rails.application.config.assets.precompile += %w( jquery.easing.min.js Sortable.js )
