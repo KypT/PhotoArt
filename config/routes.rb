@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'gallery/' => 'gallery#index'
   get 'gallery/:album' => 'gallery#slideshow'
   post 'send_email' => 'main#send_email'
+  get 'sitemap' => 'main#sitemap'
 
   namespace :admin do
     resources :articles, :sections
