@@ -1,5 +1,16 @@
-<div class = 'container about-container'>
+<% content_for :meta do %>
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "LocalBusiness",
+        "name" : "Всеволод Тоботрас",
+        "image" : "<%= image_url 'section-artist.jpg' %>",
+        "email" : "sever-1@mail.ru"
+    }
+</script>
+<% end %>
 
+<div class = 'container about-container'>
   <div class="row">
     <div class="col-sm-5">
       <img class = 'about-img' src="<%= url_to_image 'section-artist.jpg' %>" alt=""/>
