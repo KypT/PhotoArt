@@ -2,22 +2,21 @@
 <html>
 <head>
     <title><%= page_title %></title>
+    <meta name = 'Keywords' content = '<%= page_keywords %>'>
+    <meta name = 'Description' content = '<%= page_description %>'>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
     <%= yield :meta %>
-
     <%= stylesheet_link_tag "application", params[:controller] %>
     <%= javascript_include_tag "application", params[:controller] %>
     <%= yield :assets %>
 
     <%= csrf_meta_tags %>
-
     <%= render 'layouts/yandexMetrika' %>
 </head>
 <body>
     <%= render 'layouts/facebookInit' %>
     <%= render 'layouts/navbar' %>
     <%= yield %>
-
 </body>
 </html>
