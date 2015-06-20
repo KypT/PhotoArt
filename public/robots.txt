@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: vtobotras.ru/sitemap.xml
+Sitemap: http://vtobotras.ru/sitemap.xml
 Host: vtobotras.ru
