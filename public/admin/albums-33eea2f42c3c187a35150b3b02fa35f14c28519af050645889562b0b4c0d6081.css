@@ -1,0 +1,55 @@
+/* line 5, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.thumbnail {
+  min-height: 240px;
+}
+
+/* line 10, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.modal-footer {
+  text-align: left;
+}
+
+/* line 15, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.modal-body.thumbnail {
+  margin: 0;
+}
+
+/* line 20, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+#myModalLabel {
+  font-size: 1.5em;
+}
+
+/* line 25, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+#make-cover {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 31, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.message {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+/* line 39, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.album-container {
+  padding: 0;
+}
+
+/* line 43, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.album-form {
+  padding: 0 15px;
+}
+
+/* line 47, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.album-photo {
+  padding: 5px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+/* line 53, /home/kirill/PhotoArt/app/assets/stylesheets/admin/albums.scss */
+.album-photo > img {
+  width: 100%;
+}
