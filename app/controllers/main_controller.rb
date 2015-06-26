@@ -14,7 +14,6 @@ class MainController < ApplicationController
   def sitemap
     @sections = Section.all
     @articles = Article.all
-    @events = Event.all
     @albums = Album.all
   end
 end

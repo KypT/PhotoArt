@@ -18,17 +18,8 @@ xml.urlset('xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9') {
 
   @articles.each do | article |
     xml.url {
-      xml.loc(URI.join (root_url + 'aricles/' + article.id.to_s))
+      xml.loc(URI.join (root_url + article.section + '/' + article.id.to_s))
       xml.lastmod(article.updated_at.to_date)
-      xml.changefreq('weekly')
-      xml.priority(0.9)
-    }
-  end
-
-  @events.each do | event |
-    xml.url {
-      xml.loc(URI.join (root_url + event.section + '/events/' + event.id.to_s))
-      xml.lastmod(event.updated_at.to_date)
       xml.changefreq('weekly')
       xml.priority(0.9)
     }
