@@ -1,0 +1,4 @@
+var response = $('<%=j render partial: 'message', locals: {message: @message} %>');
+$('.discussion-messages').append(response);
+
+response.fadeIn();

@@ -1,0 +1,89 @@
+//= require message
+
+@mixin placeholder($color, $font-size) {
+  &::-webkit-input-placeholder { font-size: $font-size;  color:$color; }
+  &::-moz-placeholder          { font-size: $font-size; color:$color; }/* Firefox 19+ */
+  &:-moz-placeholder           { font-size: $font-size; color:$color; }/* Firefox 18- */
+  &:-ms-input-placeholder      { font-size: $font-size; color:$color; }
+}
+
+.discussion {
+  color: black;
+  background-color: rgba(50, 50, 50, 0.78);
+
+  .modal-body {
+    background-color: rgb(34, 34, 34);
+  }
+  .load-more {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  .modal-header {
+    background-color: black;
+    background-image: none;
+    border-radius: 0;
+    border: none;
+    padding: 1px 20px;
+    .close {
+      margin-top: 9px;
+      color: #bababa;
+      opacity: 1;
+    }
+    .event-date {
+      font-size: 19px;
+      color: rgb(140, 140, 140);
+    }
+    .modal-title {
+      color: #ADADAD;
+      text-transform: uppercase;
+      margin-top: 10px;
+      margin-bottom: 2px;
+    }
+  };
+  .discussion-form {
+    input,
+    textarea,
+    input[type='submit'] {
+      border: 1px black solid;
+      color: black;
+      font-size: 16px;
+    }
+
+    #message_author {
+      background-color: black;
+      font-size: 18px;
+      color: white;
+      &::-webkit-input-placeholder { font-size: 18px; color:white; }
+      &::-moz-placeholder          { font-size: 18px; color:white; }/* Firefox 19+ */
+      &:-moz-placeholder           { font-size: 18px; color:white; }/* Firefox 18- */
+      &:-ms-input-placeholder      { font-size: 18px; color:white; }
+    }
+
+    #message_content {
+      &::-webkit-input-placeholder { font-size: 18px; color:black; }
+      &::-moz-placeholder          { font-size: 18px; color:black; }/* Firefox 19+ */
+      &:-moz-placeholder           { font-size: 18px; color:black; }/* Firefox 18- */
+      &:-ms-input-placeholder      { font-size: 18px; color:black; }
+    }
+    input {
+      border-radius: 5px 5px 0 0;
+    }
+
+    textarea {
+      border-radius: 0;
+      border-bottom: none;
+      border-top: none;
+      background-color: rgb(208, 208, 208);
+      max-width: 100%;
+    }
+
+    input[type='submit'] {
+      border-radius: 0 0 5px 5px;
+      color: white;
+      background-color: rgb(53, 53, 53);
+    }
+  }
+}

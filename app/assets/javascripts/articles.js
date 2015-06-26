@@ -1,3 +1,13 @@
+//= require ckeditor/init.js.erb
+//= require discussion
+
+function getParameterByName(name, uri) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(uri);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
 $(function () {
     var articles = $('.article-scale');
 
@@ -15,6 +25,8 @@ $(function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(scaleArticles, 100);
     });
+
+
 
     scaleArticles();
 });

@@ -1,3 +1,5 @@
+//= require discussion
+
 $(window).load( function() {
     if ($.supersized)
         $.supersized({

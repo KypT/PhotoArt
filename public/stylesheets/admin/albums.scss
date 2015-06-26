@@ -1,0 +1,55 @@
+// Place all the styles related to the albums controller here.
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.thumbnail
+{
+  min-height: 240px;
+}
+
+.modal-footer
+{
+  text-align: left;
+}
+
+.modal-body.thumbnail
+{
+  margin: 0;
+}
+
+#myModalLabel
+{
+  font-size: 1.5em;
+}
+
+#make-cover
+{
+  display:inline-block;
+  margin-left: 10px;
+}
+
+.message
+{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.album-container {
+  padding: 0;
+}
+
+.album-form {
+  padding: 0 15px;
+}
+
+.album-photo {
+  padding: 5px;
+  max-height: 200px;
+  overflow : hidden;
+}
+
+.album-photo > img {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2">
+      <div class = 'link articles-to-home'>
+        <%= link_to root_path do %>
+            <span class="glyphicon glyphicon-home"></span>
+            На главную
+        <% end %>
+        </div>
+    </div>
+    <div class="col-xs-8 article article-scale">
+      <% @articles.each do | article | %>
+          <% @discussion = article.discussion %>
+          <%= render partial: 'article', locals: {article: article} %>
+      <% end %>
+      <%= will_paginate @articles %>
+    </div>
+    <div class="col-md-2">
+      <% if user_signed_in? %>
+          <%= link_to({action: 'new', section: @section}, {class: 'link-add-article btn btn-success btn-lg'}) do %>
+              <span class="glyphicon glyphicon-plus"></span>
+              Добавить статью
+          <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<%= render 'discussionModal' %>

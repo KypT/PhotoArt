@@ -1,7 +1,7 @@
 class GalleryController < ApplicationController
 
-  def slideshow
-    @album = Album.find(params[:album])
+  def show
+    @album = Album.find(params[:id])
     @page_title = 'Всеволод Тоботрас. Просмотр галереи фотографий из альбома ' + @album.name
     render layout: 'gallery'
   end

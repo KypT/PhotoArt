@@ -1,6 +1,6 @@
 <div class = "panel panel-default">
   <div class = 'panel-heading'>
-    <%= link_to "/articles/#{article.id}" do %>
+    <%= link_to article_path id: article.id, section: article.section do %>
         <h3 class = "article-title"><%= article.title %></h3>
     <% end %>
     <div class = 'article-date title'><%= article.created_at.to_s[0..10] %></div>
@@ -9,6 +9,7 @@
     <div class = "article-text"><%= article.content.html_safe %></div>
     <hr/>
     <div class = 'social'>
+      <a class="link btn-discuss" role="button" data-messages="<%= article.discussion.messages.count %>" data-id = '<%= article.discussion.id %>' data-toggle="modal" data-target="#discussion-modal">Обсудить <span class="badge"><%= article.discussion.messages.count %></span></a>
       <div class="fb-like" data-href="<%= root_url + "articles/#{article.id}" %>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
     </div>
   </div>

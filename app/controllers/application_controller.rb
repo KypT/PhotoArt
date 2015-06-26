@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def load_sections
     @sections = Section.all
   end
+
+  def not_found
+    raise ActionController::RoutingError.new('Not Found')
+  end
 end

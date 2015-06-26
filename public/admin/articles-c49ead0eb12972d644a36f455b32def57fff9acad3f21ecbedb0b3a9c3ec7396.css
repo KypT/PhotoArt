@@ -1,0 +1,14 @@
+/* line 1, /home/kirill/PhotoArt/app/assets/stylesheets/admin/articles.scss */
+.article {
+  color: black;
+  margin-top: 20px;
+}
+/* line 5, /home/kirill/PhotoArt/app/assets/stylesheets/admin/articles.scss */
+.article .panel-heading {
+  background-color: #C0C0C0;
+  background-image: none;
+}
+/* line 8, /home/kirill/PhotoArt/app/assets/stylesheets/admin/articles.scss */
+.article .panel-heading .article-title {
+  color: black;
+}
