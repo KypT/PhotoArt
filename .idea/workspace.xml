@@ -67,8 +67,8 @@
       <file leaf-file-name="gallery.css.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.3472">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -482,12 +482,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00051" summary="gallery cards update">
-      <created>1433882084485</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1433882084485</updated>
-    </task>
     <task id="LOCAL-00052" summary="gallery cards quickfix">
       <created>1433882195244</created>
       <option name="number" value="00052" />
@@ -776,7 +770,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435344676026</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="gallery thumb fix">
+      <created>1435348381880</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1435348381880</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -843,7 +843,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main page update" />
     <MESSAGE value="visual updates" />
     <MESSAGE value="admin fix" />
     <MESSAGE value="events fix" />
@@ -868,7 +867,8 @@
     <MESSAGE value="robots fix" />
     <MESSAGE value="added discussions" />
     <MESSAGE value="style fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="style fixes" />
+    <MESSAGE value="gallery thumb fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery thumb fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1260,8 +1260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gallery.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3472">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding />
         </state>
       </provider>

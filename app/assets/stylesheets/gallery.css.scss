@@ -47,8 +47,8 @@
 ul#thumb-list li {
   position: relative;
   img {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     max-width: 150px;
     max-height: 108px;
   }
