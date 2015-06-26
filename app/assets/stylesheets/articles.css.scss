@@ -26,7 +26,7 @@
       }
     }
   ;
-    .panel-body {
+    .article-text {
       a {
         color: #3A6FAB;
         background-color: rgb(219, 219, 219);;
@@ -54,5 +54,13 @@
   left: 20px;
   @media (max-width: 765px) {
     display: none;
+  }
+}
+
+.btn-discuss {
+  background-color: rgb(71, 67, 67);
+  color: white;
+  &:hover {
+    background-color: #383737;
   }
 }
