@@ -1,0 +1,13 @@
+<div class = 'discussion-container'>
+  <a href="" data-remote = true class = 'link load-more'>Предыдущие комментарии</a>
+
+  <div class = 'discussion-messages'>
+  </div>
+
+  <%= form_tag( {:controller => 'message', :action => 'create'}, remote: true, class: 'discussion-form' ) do %>
+    <%= text_field :message, :author, class: 'form-control', placeholder: 'Представьтесь, пожалуйста', value: @username, autocomplete: false %>
+    <%= text_area :message, :content, class: 'form-control', placeholder: 'Ваше сообщение', rows: 6 %>
+    <%= hidden_field :discussion, :id, class: 'form-control' %>
+    <%= submit_tag 'Оставить комментарий', class: 'form-control' %>
+    <% end %>
+</div>

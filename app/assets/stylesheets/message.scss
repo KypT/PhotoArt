@@ -1,0 +1,28 @@
+.discussion-message {
+  margin-bottom: 15px;
+  border: 1px black solid;
+  border-radius: 5px 5px 0 0;
+
+  .message-header {
+    padding: 5px 10px;
+    background-color: black;
+
+    .message-author {
+      color: white;
+      display: inline;
+    }
+    .message-created {
+      display: inline-block;
+      font-size: 14px;
+      color: #a3a3a3;
+    }
+    a {
+      color: red;
+    }
+  }
+
+  .message-content {
+    padding: 5px 10px;
+    background-color: rgb(208, 208, 208);
+  }
+}

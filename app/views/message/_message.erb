@@ -1,0 +1,7 @@
+<div class="discussion-message" id="message-<%= message.id %>">
+  <div class="message-header"><h3 class="message-author"><%= message.author %></h3>
+    <span class="message-created"><%= message.created_at.to_s[0..10] %></span>
+    <span class="message-controls"><%= link_to "Удалить", {controller: 'message', action: 'destroy', id: message.id, remote: true}, :method => 'delete', data: {:confirm => 'Точно удалить?'} if user_signed_in? %></span>
+  </div>
+  <div class="message-content"><pre><%= message.content %></pre></div>
+</div>

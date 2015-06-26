@@ -19,7 +19,7 @@
 <div class="main-content container-fluid">
     <div class = 'sections row'>
             <div class="section col-md-4">
-        <%= link_to controller: 'articles', action: 'all' do %>
+        <%= link_to articles_path section: 'news' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-articles.jpg' %>)'>
               <h1 class = 'section-title'>Новости</h1>
               <div class="section-description">
@@ -55,7 +55,7 @@
       <% end %>
     </div>
       <div class="section col-md-4">
-        <%= link_to events_path section: 'photography' do %>
+        <%= link_to articles_path section: 'photography' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-photo.jpg' %>)'>
               <h1 class = 'section-title'>Фотосъемка</h1>
               <div class="section-description">
@@ -67,7 +67,7 @@
         <% end %>
       </div>
       <div class="section col-md-4">
-        <%= link_to events_path section: 'teaching' do %>
+        <%= link_to articles_path section: 'teaching' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-learning.jpg' %>)'>
               <h1 class = 'section-title'>Фотошкола</h1>
               <div class="section-description">
@@ -79,7 +79,7 @@
         <% end %>
       </div>
       <div class="section col-md-4">
-        <%= link_to events_path section: 'travel' do %>
+        <%= link_to articles_path section: 'travel' do %>
             <div class = 'section-image' style = 'background-image: url(<%= image_url 'section-travel.jpg' %>)'>
               <h1 class = 'section-title'>Фотоэкспедиции</h1>
               <div class="section-description">

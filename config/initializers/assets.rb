@@ -14,7 +14,7 @@ Rails.application.config.assets.version = '1.0'
   Rails.application.config.assets.precompile += ["#{controller}.js", "#{controller}.css"]
 end
 
-%w( fileinput supersized supersized.shutter ).each do |vendor|
+%w( fileinput supersized supersized.shutter discussion ).each do |vendor|
   Rails.application.config.assets.precompile += ["#{vendor}.js", "#{vendor}.css"]
 end
 

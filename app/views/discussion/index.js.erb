@@ -1,0 +1,5 @@
+var container = $('.discussion-messages');
+
+<% @messages.each do | msg | %>
+    container.prepend('<%=j render partial: 'message/message', locals: {message: msg} %>');
+<% end %>
