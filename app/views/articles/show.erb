@@ -2,7 +2,7 @@
     <meta property="og:url"         content="<%= request.original_url %>" />
     <meta property="og:type"        content="article" />
     <meta property="og:title"       content="<%= @article.title %>" />
-    <meta property="og:description" content="<%= @article.content %>" />
+    <meta property="og:description" content="<%=  strip_tags @article.content %>" />
     <meta property="fb:app_id"      content="833150406780657" />
 <% end %>
 
