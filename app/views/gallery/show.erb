@@ -28,13 +28,12 @@
       <span class="glyphicon glyphicon-home"></span>
       На главную
   <% end %>
+  <a class="link btn-discuss" role="button" data-messages="<%= @album.discussion.messages.count %>" data-id = '<%= @album.discussion.id %>' data-toggle="modal" data-target="#discussion-modal">Обсудить <span class="badge"><%= @album.discussion.messages.count %></span></a>
 </div>
 
-<!--Thumbnail Navigation-->
 <div id="prevthumb"></div>
 <div id="nextthumb"></div>
 
-<!--Arrow Navigation-->
 <a id="prevslide" class="load-item"></a>
 <a id="nextslide" class="load-item"></a>
 
@@ -43,20 +42,15 @@
   <div id="thumb-forward"></div>
 </div>
 
-<!--Control Bar-->
 <div id="controls-wrapper" class="load-item">
   <div id="controls">
-
-    <!--Slide counter-->
     <div id="slidecounter">
       <span class="slidenumber"></span> / <span class="totalslides"></span>
     </div>
-
-    <!--Slide captions displayed here-->
     <div id="slidecaption"></div>
-
-    <!--Thumb Tray button-->
     <a id="tray-button">Все фотографии <span class = 'glyphicon glyphicon-menu-hamburger'></span></a>
 
   </div>
 </div>
+
+<%= render partial: 'articles/discussionModal' %>

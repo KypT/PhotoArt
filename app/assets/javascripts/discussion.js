@@ -1,5 +1,4 @@
 $(function() {
-
     var messages_bucket_size = 5;
     var $discussion = $('#discussion-modal');
     if ($discussion.length > 0) {

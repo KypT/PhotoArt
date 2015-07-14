@@ -95,3 +95,17 @@
     display: none;
   }
 }
+
+.read-more {
+  color: #3A6FAB;
+  &:hover {
+    color: #203a5c;
+  }
+  background-color: #dbdbdb;
+  font-weight: bold;
+  display: none;
+}
+
+.short + .read-more {
+  display: inline-block;
+}
