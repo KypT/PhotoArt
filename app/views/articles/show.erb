@@ -6,19 +6,21 @@
     <meta property="fb:app_id"      content="833150406780657" />
 <% end %>
 
-<div class = 'container'>
-    <div class = 'link link-to-news'>
+<div class='container'>
+  <div class='side-links'>
+    <div class='link side-link'>
       <%= link_to articles_path section: @article.section do %>
           <span class="glyphicon glyphicon-chevron-left"></span>
           Вернуться
       <% end %>
     </div>
-    <div class = 'link'>
-    <%= link_to controller: 'main', action: 'index' do %>
-      <span class="glyphicon glyphicon-home"></span>
-      На главную
-    <% end %>
+    <div class='link side-link'>
+      <%= link_to controller: 'main', action: 'index' do %>
+          <span class="glyphicon glyphicon-home"></span>
+          На главную
+      <% end %>
     </div>
+  </div>
   <% if user_signed_in? %>
       <%= link_to( edit_article_path(id: @article.id), {class: 'link-edit-event btn btn-warning btn-lg'}) do %>
           <span class="glyphicon glyphicon-edit"></span>
@@ -29,8 +31,11 @@
           Удалить
       <% end %>
   <% end %>
-  <div class = 'article'>
-    <%= render partial: 'article', locals: {article: @article} %>
+  <div class = 'row'>
+    <div class="col-sm-2">&nbsp;</div>
+    <div class = 'article article-scale'>
+      <%= render partial: 'article', locals: {article: @article, short: false} %>
+    </div>
   </div>
 </div>
 

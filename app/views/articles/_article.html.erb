@@ -6,7 +6,8 @@
     <div class = 'article-date title'><%= article.created_at.to_s[0..10] %></div>
   </div>
   <div class = 'panel-body'>
-    <div class = "article-text"><%= article.content.html_safe %></div>
+    <div class = "article-text <%= 'short' if short %>"><%= article.content.html_safe %></div>
+    <%= link_to 'Читать дальше...', article_path(id: article.id, section: article.section) %>
     <hr/>
     <div class = 'social'>
       <a class="link btn-discuss" role="button" data-messages="<%= article.discussion.messages.count %>" data-id = '<%= article.discussion.id %>' data-toggle="modal" data-target="#discussion-modal">Обсудить <span class="badge"><%= article.discussion.messages.count %></span></a>

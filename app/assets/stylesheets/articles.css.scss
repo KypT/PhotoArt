@@ -35,6 +35,9 @@
           color: #9d9d9d;
         }
       }
+      img {
+        max-width: 100%;
+      }
     }
     hr {
       margin-top: 15px;
@@ -64,5 +67,31 @@
   color: white;
   &:hover {
     background-color: #383737;
+  }
+}
+
+.article-text.short p:nth-child(n + 5) {
+  display: none;
+}
+
+.side-links {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  & .link {
+    position: absolute;
+    white-space: nowrap;
+  }
+  & .link:nth-child(1) {
+    top:93px;
+  }
+  & .link:nth-child(2) {
+    top:133px;
+  }
+  & a:nth-child(3) {
+    top:173px;
+  }
+  @media (max-width: 786px) {
+    display: none;
   }
 }

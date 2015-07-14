@@ -26,7 +26,5 @@ $(function () {
         resizeTimer = setTimeout(scaleArticles, 100);
     });
 
-
-
     scaleArticles();
 });
