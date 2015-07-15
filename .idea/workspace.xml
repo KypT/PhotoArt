@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48baed6b-9ea7-41a4-91df-3d2fb3780d32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery/show.erb" afterPath="$PROJECT_DIR$/app/views/gallery/show.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoArt.iws" />
@@ -100,8 +99,8 @@
       <file leaf-file-name="show.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/gallery/show.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67849225" vertical-offset="0" max-vertical-offset="1224">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7915743" vertical-offset="0" max-vertical-offset="1224">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -486,12 +485,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00059" summary="added favicon">
-      <created>1433943594871</created>
-      <option name="number" value="00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1433943594873</updated>
-    </task>
     <task id="LOCAL-00060" summary="added link to home to gallery">
       <created>1433944448549</created>
       <option name="number" value="00060" />
@@ -780,7 +773,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436980793818</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="fixes">
+      <created>1436981244908</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1436981244908</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -825,8 +824,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="site update" />
-    <MESSAGE value="events quickfix" />
     <MESSAGE value="gallery tray update" />
     <MESSAGE value="about page update" />
     <MESSAGE value="adaptive update" />
@@ -850,7 +847,9 @@
     <MESSAGE value="added discussions to albums" />
     <MESSAGE value="quickfix for articles" />
     <MESSAGE value="fixes...." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes...." />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1234,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gallery/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67849225" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7915743" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
