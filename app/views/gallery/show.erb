@@ -6,6 +6,17 @@
     <%= javascript_include_tag 'supersized.shutter' %>
 <% end %>
 
+<%= content_for :meta do %>
+    <meta property="og:url"         content="<%= request.original_url %>" />
+    <meta property="og:type"        content="image" />
+    <meta property="fb:app_id"      content="833150406780657" />
+    <% if @album %>
+        <% @album.photos.order(:sort).each do | photo | %>
+            <meta property="og:image" content="<%= photo.file.url :small %>" />
+        <% end %>
+    <% end %>
+<% end %>
+
 <script type="text/javascript" charset="utf-8">
     var slides = [
         <% if @album %>
