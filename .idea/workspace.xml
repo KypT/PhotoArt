@@ -100,8 +100,8 @@
       <file leaf-file-name="show.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/gallery/show.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67849225" vertical-offset="0" max-vertical-offset="1224">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41463414" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -486,18 +486,6 @@
       <option name="number" value="Default" />
       <updated>1424632092023</updated>
     </task>
-    <task id="LOCAL-00059" summary="added favicon">
-      <created>1433943594871</created>
-      <option name="number" value="00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1433943594873</updated>
-    </task>
-    <task id="LOCAL-00060" summary="added link to home to gallery">
-      <created>1433944448549</created>
-      <option name="number" value="00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1433944448549</updated>
-    </task>
     <task id="LOCAL-00061" summary="updated events">
       <created>1433944885668</created>
       <option name="number" value="00061" />
@@ -780,7 +768,19 @@
       <option name="project" value="LOCAL" />
       <updated>1436980793818</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="fixes">
+      <created>1436981244908</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1436981244908</updated>
+    </task>
+    <task id="LOCAL-00109" summary="fixes">
+      <created>1436981334004</created>
+      <option name="number" value="00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1436981334004</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -794,7 +794,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14395887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19858612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17159383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28145266" sideWeight="0.33097687" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -825,8 +825,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="site update" />
-    <MESSAGE value="events quickfix" />
     <MESSAGE value="gallery tray update" />
     <MESSAGE value="about page update" />
     <MESSAGE value="adaptive update" />
@@ -850,7 +848,9 @@
     <MESSAGE value="added discussions to albums" />
     <MESSAGE value="quickfix for articles" />
     <MESSAGE value="fixes...." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes...." />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1234,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gallery/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67849225" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41463414" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
