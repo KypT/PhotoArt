@@ -11,7 +11,7 @@
     <div class="col-xs-8 article article-scale">
       <% @articles.each do | article | %>
           <% @discussion = article.discussion %>
-          <%= render partial: 'article', locals: {article: article, short: true} %>
+          <%= render partial: 'article', locals: {article: article, short: short_version} %>
       <% end %>
       <%= will_paginate @articles %>
     </div>
