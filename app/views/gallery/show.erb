@@ -7,6 +7,8 @@
 <% end %>
 
 <%= content_for :meta do %>
+    <meta property="og:type"         content="article" />
+    <meta property="og:title"       content="<%= @page_title %>" />
     <meta property="og:url"         content="<%= request.original_url %>" />
     <meta property="og:description" content="Новые фотографии в разделе <%= @album.name %>" />
     <meta property="fb:app_id"      content="833150406780657" />
