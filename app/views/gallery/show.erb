@@ -8,6 +8,7 @@
 
 <%= content_for :meta do %>
     <meta property="og:url"         content="<%= request.original_url %>" />
+    <meta property="og:description" content="Новые фотографии в разделе <%= @album.name %>" />
     <meta property="fb:app_id"      content="833150406780657" />
     <% if @album %>
         <% @album.photos.order(:sort).each do | photo | %>
