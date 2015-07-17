@@ -12,7 +12,7 @@
     <meta property="fb:app_id"      content="833150406780657" />
     <% if @album %>
         <% @album.photos.order(:sort).each do | photo | %>
-            <meta property="og:image" content="<%= root_url + photo.file.url(:small) %>" />
+            <meta property="og:image" content="<%= root_url + photo.file.url(:medium) %>" />
         <% end %>
     <% end %>
 <% end %>
