@@ -7,7 +7,7 @@ class MainController < ApplicationController
   end
 
   def send_email
-    PhotoMailer.send_message_to_author(params).deliver
+    PhotoMailer.send_message_to_author(params).deliver_now
     respond_to {|format| format.js }
   end
 

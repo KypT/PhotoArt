@@ -1,0 +1,16 @@
+<%
+   def host
+     'vtobotras.ru'
+   end
+
+   def url_for_discussable(discussable)
+     if discussable.is_a? Article
+       url_for host: host, controller: 'articles', action: 'show', id: discussable.id, section: discussable.section
+     else
+       url_for host: host, controller: 'gallery', action: 'show', id: discussable.id
+     end
+   end
+%>
+
+<h2> Посетитель оставил новый комментарий </h2>
+<a href="<%= url_for_discussable @discussable %>">Посмотреть комментарий</a>

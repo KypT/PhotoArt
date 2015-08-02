@@ -17,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/app/views/main/send_email.js.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/message/_message.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/message/create.js.erb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/photo_mailer/send_comment_notification.erb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/photo_mailer/send_message_to_author.erb" charset="UTF-8" />
   </component>
 </project>
