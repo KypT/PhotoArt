@@ -1,4 +1,4 @@
-class Admin::AlbumsController < ApplicationController
+class Admin::AlbumsController < AdminController
   before_action :set_album, only: [:edit, :update, :destroy]
 
   def index

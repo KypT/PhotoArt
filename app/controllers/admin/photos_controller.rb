@@ -1,4 +1,4 @@
-class Admin::PhotosController < ApplicationController
+class Admin::PhotosController < AdminController
   before_action :set_photo, only: [:edit, :update, :destroy]
   before_action :load_albums, only: [:edit, :new, :index]
 

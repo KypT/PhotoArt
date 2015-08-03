@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :validate_section_param!
   before_action :find_article, only: [:edit, :update, :destroy, :show]
-  before_action :authenticate_user!, only: [:create, :update, :destroy, :edit]
+  before_action :authenticate_admin!, only: [:new, :create, :update, :destroy, :edit]
 
   def index
     @articles = Article.where(section: @section).order(created_at: :desc)

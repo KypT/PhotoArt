@@ -16,7 +16,7 @@
       <%= will_paginate @articles %>
     </div>
     <div class="col-md-2">
-      <% if user_signed_in? %>
+      <% if admin_signed_up? %>
           <%= link_to({action: 'new', section: @section}, {class: 'link-add-article btn btn-success btn-lg'}) do %>
               <span class="glyphicon glyphicon-plus"></span>
               Добавить статью

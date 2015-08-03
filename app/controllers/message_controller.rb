@@ -1,4 +1,5 @@
 class MessageController < ApplicationController
+  before_action :authenticate_admin!, only: 'destroy'
   def create
     @discussion_id = params[:discussion][:id]
     @content = params[:message][:content]
