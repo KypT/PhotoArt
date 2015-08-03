@@ -1,13 +1,14 @@
 <div class = 'discussion-container'>
   <a href="" data-remote = true class = 'link load-more'>Предыдущие комментарии</a>
+  <div class = 'discussion-messages'> </div>
 
-  <div class = 'discussion-messages'>
-  </div>
-
-  <%= form_tag( {:controller => 'message', :action => 'create'}, remote: true, class: 'discussion-form' ) do %>
-    <%= text_field :message, :author, class: 'form-control', placeholder: 'Представьтесь, пожалуйста', value: @username, autocomplete: false %>
-    <%= text_area :message, :content, class: 'form-control', placeholder: 'Ваше сообщение', rows: 6 %>
-    <%= hidden_field :discussion, :id, class: 'form-control' %>
-    <%= submit_tag 'Оставить комментарий', class: 'form-control' %>
-    <% end %>
+  <% if user_signed_in?  %>
+      <%= render partial: 'discussion/messageForm' %>
+  <% else %>
+      <div class = 'link auth'>
+        <%= link_to 'Зарегистрируйтесь', new_user_registration_path, class: 'btn btn-primary'%> или
+        <%= link_to 'Войдите', new_user_session_path, class: 'btn btn-success'%>
+        для того, чтобы оставить комментарий
+      </div>
+  <% end %>
 </div>

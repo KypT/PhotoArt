@@ -1,6 +1,7 @@
 class Message < ActiveRecord::Base
-  validates_presence_of :author, :content
+  validates_presence_of :user, :content
   belongs_to :discussion
+  belongs_to :user
   after_create :send_notification
 
   private

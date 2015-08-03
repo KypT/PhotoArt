@@ -1,7 +1,14 @@
 <div class="discussion-message" id="message-<%= message.id %>">
-  <div class="message-header"><h3 class="message-author"><%= message.author %></h3>
+  <div class="message-header">
+  <% if admin_signed_up? %>
+      <%= mail_to owner_email(message) do  %>
+            <h3 class="message-author"><%= owner_name(message) %></h3>
+      <% end %>
+  <% else %>
+        <h3 class="message-author"><%= owner_name(message) %></h3>
+  <% end %>
     <span class="message-created"><%= message.created_at.to_s[0..10] %></span>
-    <span class="message-controls"><%= link_to "Удалить", {controller: 'message', action: 'destroy', id: message.id, remote: true}, :method => 'delete', data: {:confirm => 'Точно удалить?'} if user_signed_in? %></span>
+    <span class="message-controls"><%= link_to "Удалить", {controller: 'message', action: 'destroy', id: message.id, remote: true}, :method => 'delete', data: {:confirm => 'Точно удалить?'} if admin_signed_up? %></span>
   </div>
   <div class="message-content"><pre><%= message.content %></pre></div>
 </div>

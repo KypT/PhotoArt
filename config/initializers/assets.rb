@@ -19,4 +19,4 @@ end
 end
 
 Rails.application.config.assets.precompile += %w( jquery.easing.min.js Sortable.js )
-Rails.application.config.assets.precompile += %w( *.jpg *.png *.gif )
+Rails.application.config.assets.precompile += %w( users/sessions.css users/sessions.js users/registrations.css users/registrations.js )

@@ -7,11 +7,9 @@ class ArticlesController < ApplicationController
     @articles = Article.where(section: @section).order(created_at: :desc)
     @articles = @articles.paginate page: params[:page], per_page: 10
     @page_title = 'Всеволод Тоботрас. Новости'
-    remember_username
   end
 
   def show
-    remember_username
     @page_title = 'Всеволод Тоботрас. ' + @article.title
     @discussion = @article.discussion
   end
@@ -67,9 +65,5 @@ class ArticlesController < ApplicationController
     @section = params[:section]
     valid_sections = %w( news teaching travel photography publications )
     not_found unless valid_sections.include? @section
-  end
-
-  def remember_username
-    @username = session[:username] || ''
   end
 end

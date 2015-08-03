@@ -15,4 +15,8 @@ module ApplicationHelper
   def count_messages(entity_type, id)
     @discussion = Discussion.find_by about: entity_type, entity_id: id
   end
+
+  def admin_signed_up?
+    current_user && current_user.admin?
+  end
 end

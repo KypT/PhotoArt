@@ -1,5 +1,9 @@
 //= require message
 
+.discussion-container {
+  text-align: center
+}
+
 @mixin placeholder($color, $font-size) {
   &::-webkit-input-placeholder { font-size: $font-size;  color:$color; }
   &::-moz-placeholder          { font-size: $font-size; color:$color; }/* Firefox 19+ */
@@ -68,12 +72,8 @@
       &:-moz-placeholder           { font-size: 18px; color:black; }/* Firefox 18- */
       &:-ms-input-placeholder      { font-size: 18px; color:black; }
     }
-    input {
-      border-radius: 5px 5px 0 0;
-    }
-
     textarea {
-      border-radius: 0;
+      border-radius: 5px 5px 0 0;
       border-bottom: none;
       border-top: none;
       background-color: rgb(208, 208, 208);
@@ -86,4 +86,9 @@
       background-color: rgb(53, 53, 53);
     }
   }
+}
+
+.auth {
+  color: white;
+
 }

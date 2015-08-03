@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   resources :discussion, only: [:index]
   resources :gallery, only: [:index, :show]
 
-  devise_for :users
+  devise_for :users, controllers: { registrations: 'users/registrations', sessions: 'users/sessions'}
   mount Ckeditor::Engine => '/ckeditor'
 
   scope ':section/' do

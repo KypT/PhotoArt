@@ -1,0 +1,5 @@
+<%= form_tag( {:controller => 'message', :action => 'create'}, remote: true, class: 'discussion-form' ) do %>
+    <%= text_area :message, :content, class: 'form-control', placeholder: 'Ваше сообщение', rows: 6 %>
+    <%= hidden_field :discussion, :id %>
+    <%= submit_tag 'Оставить комментарий', class: 'form-control' %>
+<% end %>

@@ -4,15 +4,15 @@
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="input-group">
         <%= f.email_field :email, class: 'form-control', autofocus: true %>
-        <span class="input-group-addon" id="sizing-addon1">Email</span>
+        <span class="input-group-addon">Email</span>
       </div>
       <div class="input-group">
         <%= f.password_field :password, class: 'form-control', autocomplete: "off" %>
-        <span class="input-group-addon" id="sizing-addon1">Пароль</span>
+        <span class="input-group-addon">Пароль</span>
       </div>
 
       <div class="actions">
-        <%= f.submit "Войти" %>
+        <%= f.submit "Войти", class: 'sign-in btn btn-success' %>
       </div>
     <% end %>
 
