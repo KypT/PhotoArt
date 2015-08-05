@@ -6,12 +6,16 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.where(section: @section).order(created_at: :desc)
     @articles = @articles.paginate page: params[:page], per_page: 10
-    @page_title = 'Всеволод Тоботрас. Новости'
+    @page_title = 'Всеволод Тоботрас. ' + translate_section(@section)
+    @page_keywords = keywords_for @section
+    @page_description = description_for @section
   end
 
   def show
     @page_title = 'Всеволод Тоботрас. ' + @article.title
     @discussion = @article.discussion
+    @page_keywords = @article.keywords
+    @page_description = @article.description
   end
 
   def new
@@ -37,7 +41,7 @@ class ArticlesController < ApplicationController
     if @article.update article_params
       redirect_to article_path id: @article.id
     else
-      render edit_article_path id: @article.id
+      render action: 'edit'
     end
   end
 
@@ -52,13 +56,29 @@ class ArticlesController < ApplicationController
   end
 
   def article_params
-    params.require(:article).permit(:title, :content)
+    params.require(:article).permit(:title, :content, :keywords, :description)
   end
 
   def translate_section(section)
     {'travel' => 'Фотоэкспедиции', 'photography' => 'Фотосъемка',
      'teaching' => 'Фотошкола', 'news' => 'Новости',
      'publications' => 'Публикации'}[section]
+  end
+
+  def keywords_for(section)
+    {'travel' => 'фотография,пейзаж,архитектура,репортаж,фотосъемка,Кавказ,сопровождение,маршруты',
+     'teaching' => 'фотография,художественная,фотошкола,курсы,пейзаж,жанр,композиция,свет,обработка',
+     'photography' => 'фотография,портрет,пейзаж,жанр,интерьер,архитектура,ученики,путешествие,Кавказ',
+     'news' => 'статьи,фотокритика,портрет,пейзаж,репортаж,архитектура,интерьер,встречи',
+     'publications' => 'фотография,художественная,методика,постобработка,Лайтрум,Фотошоп,рекомендации'}[section]
+  end
+
+  def description_for(section)
+    {'travel' => 'Планирование фотоэкспедиций и фотографические отчеты о путешествиях',
+     'teaching' => 'Обучение искусству фотографии, индивидуальные курсы по фотосъемке, композиции и постобработке',
+     'photography' => 'Профессиональная съемка  в студии, на пленере, а также фотографическое сопровождение в экспедиции и копроративных мероприятий',
+     'news' => 'Краткое изложение событий фотографической деятельности, информация о новых событиях и публикациях',
+     'publications' => 'Информация и статьи в помощь начинающему и опытному фотографу'}[section]
   end
 
   def validate_section_param!
