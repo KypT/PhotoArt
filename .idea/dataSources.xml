@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="171456369">
+  <component name="DataSourceManagerImpl" format="xml" hash="2650640475">
     <data-source source="LOCAL" name="Rails PhotoArt: default" uuid="c7d87de0-f728-4f54-bc4c-ba2e07e9f3a5">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
