@@ -17,4 +17,10 @@ class PhotoMailer < ApplicationMailer
     @subject = 'На сайте новый комментарий'
     mail(to: author_email, subject: @subject)
   end
+
+  def comment_notification(email, nickname, link)
+    @discussable = link
+    @subject = 'Новый комментарий от пользователя ' + nickname
+    mail(to: email, subject: @subject)
+  end
 end
